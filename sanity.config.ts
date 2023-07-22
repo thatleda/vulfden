@@ -8,7 +8,7 @@ const devOnlyPlugins = [getStartedPlugin()]
 
 export default defineConfig({
   name: 'default',
-  title: 'moccasin-gaur',
+  title: 'vulfden',
 
   projectId: 'brvct6ie',
   dataset: 'production',
