@@ -7,9 +7,9 @@ import {getStartedPlugin} from './plugins/sanity-plugin-tutorial'
 const devOnlyPlugins = [getStartedPlugin()]
 
 export default defineConfig({
-  name: 'default',
-  title: 'vulfden',
-
+  name: 'vulfden',
+  title: 'Vulfden Studio',
+  basePath: '/studio',
   projectId: 'brvct6ie',
   dataset: 'production',
 
