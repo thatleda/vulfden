@@ -4,7 +4,7 @@ export default {
     title: 'Articles',
     fields: [
         {name: 'banner', type: 'image', title: 'Banner'},
-        {name: 'reviewer', type: 'string', title: 'Reviewer'},
-        {name: 'comment', type: 'text', title: 'Comment'},
+        {name: 'title', type: 'text', title: 'Title'},
+        {name: 'content', type: 'block', title: 'Content'},
     ]
 }
