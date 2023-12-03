@@ -44,7 +44,6 @@ export default {
             {title: 'Heading 5', value: 'h5'},
             {title: 'Heading 6', value: 'h6'},
             {title: 'Quote', value: 'blockquote'},
-            {title: 'Cite', value: 'cite'},
             {title: 'Subscript', value: 'sub'},
           ],
         },
