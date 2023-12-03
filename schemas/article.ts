@@ -16,6 +16,6 @@ export default {
         slugify: (input: string) => input.toLowerCase().replace(/\s+/g, '-').slice(0, 200),
       },
     },
-    {title: 'Content', name: 'content', type: 'array', of: [{type: 'block'}]},
+    {title: 'Content', name: 'content', type: 'array', of: [{type: 'block'}, {type: 'image'}]},
   ],
 }
