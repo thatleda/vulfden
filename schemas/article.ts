@@ -5,7 +5,18 @@ export default {
   type: 'document',
   title: 'Articles',
   fields: [
-    {name: 'banner', type: 'image', title: 'Banner'},
+    {
+      name: 'banner',
+      type: 'image',
+      title: 'Banner',
+      fields: [
+        {
+          type: 'string',
+          name: 'alt',
+          title: 'Alternative text',
+        },
+      ],
+    },
     {name: 'title', type: 'string', title: 'Title', validation: (Rule: Rule) => Rule.required()},
     {
       name: 'slug',
@@ -34,10 +45,19 @@ export default {
             {title: 'Heading 6', value: 'h6'},
             {title: 'Quote', value: 'blockquote'},
             {title: 'Cite', value: 'cite'},
-            {title: 'Subscript', value: 'sub' }
+            {title: 'Subscript', value: 'sub'},
           ],
         },
-        {type: 'image'},
+        {
+          type: 'image',
+          fields: [
+            {
+              type: 'string',
+              name: 'alt',
+              title: 'Alternative text',
+            },
+          ],
+        },
       ],
     },
   ],
