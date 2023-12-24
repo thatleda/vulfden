@@ -1,41 +1,47 @@
-import {Rule} from 'sanity'
-import {DocumentTextIcon} from '@sanity/icons'
-import block from './block'
-import image from './image'
+import { Rule } from "sanity";
+import { DocumentTextIcon } from "@sanity/icons";
+import block from "./block";
+import image from "./image";
 
 export default {
-  name: 'article',
-  type: 'document',
-  title: 'Articles',
+  name: "article",
+  type: "document",
+  title: "Articles",
   icon: DocumentTextIcon,
   fields: [
     {
-      name: 'banner',
-      type: 'image',
-      title: 'Banner',
+      name: "banner",
+      type: "image",
+      title: "Banner",
       fields: [
         {
-          type: 'string',
-          name: 'alt',
-          title: 'Alternative text',
+          type: "string",
+          name: "alt",
+          title: "Alternative text",
         },
       ],
     },
-    {name: 'title', type: 'string', title: 'Title', validation: (Rule: Rule) => Rule.required()},
     {
-      name: 'slug',
-      type: 'slug',
-      title: 'URL slug',
+      name: "title",
+      type: "string",
+      title: "Title",
+      validation: (Rule: Rule) => Rule.required(),
+    },
+    {
+      name: "slug",
+      type: "slug",
+      title: "URL slug",
       options: {
-        source: 'title',
-        slugify: (input: string) => input.toLowerCase().replace(/\s+/g, '-').slice(0, 200),
+        source: "title",
+        slugify: (input: string) =>
+          input.toLowerCase().replace(/\s+/g, "-").slice(0, 200),
       },
     },
     {
-      title: 'Content',
-      name: 'content',
-      type: 'array',
+      title: "Content",
+      name: "content",
+      type: "array",
       of: [block, image],
     },
   ],
-}
+};
