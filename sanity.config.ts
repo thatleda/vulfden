@@ -1,21 +1,22 @@
-import {defineConfig, isDev} from 'sanity'
-import {visionTool} from '@sanity/vision'
+import {defineConfig} from 'sanity'
 import {deskTool} from 'sanity/desk'
 import {schemaTypes} from './schemas'
-import {getStartedPlugin} from './plugins/sanity-plugin-tutorial'
-
-const devOnlyPlugins = [getStartedPlugin()]
+import {media} from 'sanity-plugin-media'
+import {netlifyTool} from 'sanity-plugin-netlify'
 
 export default defineConfig({
   name: 'vulfden',
   title: 'Vulfden Studio',
-  projectId: 'brvct6ie',
-  dataset: 'production',
+  projectId: process.env.SANITY_STUDIO_PROJECT_ID ?? '',
+  dataset: process.env.SANITY_STUDIO_DATASET ?? '',
 
-  plugins: [deskTool(), visionTool(), ...(isDev ? devOnlyPlugins : [])],
+  plugins: [
+    deskTool(),
+    media(),
+    netlifyTool(),
+  ],
 
   schema: {
     types: schemaTypes,
   },
 })
-

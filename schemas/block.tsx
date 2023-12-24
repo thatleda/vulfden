@@ -1,4 +1,15 @@
-import { PropsWithChildren } from 'react'
+import {PropsWithChildren} from 'react'
+import {styled} from 'styled-components'
+
+const SubscriptComponent = styled.sub`
+  display: flex;
+  justify-content: end;
+`
+
+const QuoteComponent = styled.q`
+  quotes: auto;
+  font-style: italic;
+`
 
 export default {
   type: 'block',
@@ -15,16 +26,14 @@ export default {
       title: 'Quote',
       value: 'blockquote',
       component: (props: PropsWithChildren) => (
-        <q lang="en" style={{quotes: 'auto', fontStyle: 'italic'}}>
-          {props.children}
-        </q>
+        <QuoteComponent lang="en">{props.children}</QuoteComponent>
       ),
     },
     {
       title: 'Subscript',
       value: 'sub',
       component: (props: PropsWithChildren) => (
-        <sub>— {props.children}</sub>
+        <SubscriptComponent>— {props.children}</SubscriptComponent>
       ),
     },
   ],

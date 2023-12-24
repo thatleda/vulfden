@@ -1,4 +1,5 @@
-import { Rule } from 'sanity'
+import {Rule} from 'sanity'
+import {DashboardIcon} from '@sanity/icons'
 import block from './block'
 import image from './image'
 
@@ -6,6 +7,7 @@ export default {
   name: 'page',
   type: 'document',
   title: 'Pages',
+  icon: DashboardIcon,
   fields: [
     {
       name: 'banner',
