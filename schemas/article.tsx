@@ -13,13 +13,6 @@ export default {
       name: "banner",
       type: "image",
       title: "Banner",
-      fields: [
-        {
-          type: "string",
-          name: "alt",
-          title: "Alternative text",
-        },
-      ],
     },
     {
       name: "title",
