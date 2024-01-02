@@ -36,5 +36,11 @@ export default {
       type: "array",
       of: [block, image],
     },
+    {
+      title: "Excerpt",
+      name: "excerpt",
+      type: "text",
+      validation: (Rule: Rule) => Rule.max(300),
+    },
   ],
 };
