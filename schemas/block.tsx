@@ -1,6 +1,13 @@
 import { PropsWithChildren } from "react";
 import { styled } from "styled-components";
 
+const PoemComponent = styled.pre`
+  font-style: italic;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+`;
+
 const SubscriptComponent = styled.sub`
   display: flex;
   justify-content: end;
@@ -34,6 +41,13 @@ export default {
       value: "sub",
       component: (props: PropsWithChildren) => (
         <SubscriptComponent>— {props.children}</SubscriptComponent>
+      ),
+    },
+    {
+      title: "Poem",
+      value: "pre",
+      component: (props: PropsWithChildren) => (
+        <PoemComponent>{props.children}</PoemComponent>
       ),
     },
   ],
