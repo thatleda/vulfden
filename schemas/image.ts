@@ -1,10 +1,10 @@
 export default {
-  type: "image",
+  type: 'image',
   fields: [
     {
-      type: "string",
-      name: "alt",
-      title: "Alternative text",
+      type: 'string',
+      name: 'alt',
+      title: 'Alternative text',
     },
   ],
-};
+}

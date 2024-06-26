@@ -1,6 +1,6 @@
-import article from "./article";
-import book from "./book";
-import page from "./page";
-import review from "./review";
+import article from './article'
+import book from './book'
+import page from './page'
+import review from './review'
 
-export const schemaTypes = [review, article, page, book];
+export const schemaTypes = [review, article, page, book]
