@@ -1,5 +1,5 @@
-import type { Rule } from 'sanity'
 import { DashboardIcon } from '@sanity/icons'
+import type { Rule } from 'sanity'
 import block from './block'
 import image from './image'
 
