@@ -1,5 +1,5 @@
-import { styled } from 'styled-components'
 import type { PropsWithChildren } from 'react'
+import { styled } from 'styled-components'
 
 const PoemComponent = styled.pre`
   font-style: italic;

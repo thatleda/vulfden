@@ -1,5 +1,5 @@
-import { BookIcon } from '@sanity/icons'
 import type { Rule } from 'sanity'
+import { BookIcon } from '@sanity/icons'
 import block from './block'
 import image from './image'
 
