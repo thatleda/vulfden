@@ -7010,7 +7010,7 @@ snapshots:
       '@portabletext/patches': 1.1.0
       '@sanity/block-tools': 3.62.3(debug@4.3.7)
       '@sanity/schema': 3.62.3(debug@4.3.7)
-      '@sanity/types': 3.62.3
+      '@sanity/types': 3.62.3(debug@4.3.7)
       '@sanity/util': 3.62.3(debug@4.3.7)
       debug: 4.3.7
       is-hotkey-esm: 1.0.0
@@ -7079,7 +7079,7 @@ snapshots:
 
   '@sanity/block-tools@3.62.3(debug@4.3.7)':
     dependencies:
-      '@sanity/types': 3.62.3
+      '@sanity/types': 3.62.3(debug@4.3.7)
       '@types/react': 18.3.12
       get-random-values-esm: 1.0.2
       lodash: 4.17.21
@@ -7118,14 +7118,6 @@ snapshots:
       rxjs: 6.6.7
     transitivePeerDependencies:
       - supports-color
-
-  '@sanity/client@6.22.2':
-    dependencies:
-      '@sanity/eventsource': 5.0.2
-      get-it: 8.6.5
-      rxjs: 7.8.1
-    transitivePeerDependencies:
-      - debug
 
   '@sanity/client@6.22.2(debug@4.3.7)':
     dependencies:
@@ -7277,7 +7269,7 @@ snapshots:
   '@sanity/insert-menu@1.0.10(@sanity/types@3.62.3(debug@4.3.7))(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
     dependencies:
       '@sanity/icons': 3.4.0(react@18.3.1)
-      '@sanity/types': 3.62.3
+      '@sanity/types': 3.62.3(debug@4.3.7)
       '@sanity/ui': 2.8.13(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       lodash.startcase: 4.4.0
       react: 18.3.1
@@ -7329,7 +7321,7 @@ snapshots:
 
   '@sanity/presentation@1.17.7(@sanity/client@6.22.2(debug@4.3.7))(@sanity/color@3.0.6)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
     dependencies:
-      '@sanity/client': 6.22.2
+      '@sanity/client': 6.22.2(debug@4.3.7)
       '@sanity/comlink': 1.1.1
       '@sanity/icons': 3.4.0(react@18.3.1)
       '@sanity/logos': 2.1.13(@sanity/color@3.0.6)(react@18.3.1)
@@ -7356,13 +7348,13 @@ snapshots:
 
   '@sanity/preview-url-secret@2.0.0(@sanity/client@6.22.2(debug@4.3.7))':
     dependencies:
-      '@sanity/client': 6.22.2
+      '@sanity/client': 6.22.2(debug@4.3.7)
       '@sanity/uuid': 3.0.2
 
   '@sanity/schema@3.62.3(debug@4.3.7)':
     dependencies:
       '@sanity/generate-help-url': 3.0.0
-      '@sanity/types': 3.62.3
+      '@sanity/types': 3.62.3(debug@4.3.7)
       arrify: 1.0.1
       groq-js: 1.13.0
       humanize-list: 1.0.1
@@ -7407,13 +7399,6 @@ snapshots:
   '@sanity/types@3.37.2(debug@4.3.7)':
     dependencies:
       '@sanity/client': 6.22.2(debug@4.3.7)
-      '@types/react': 18.3.12
-    transitivePeerDependencies:
-      - debug
-
-  '@sanity/types@3.62.3':
-    dependencies:
-      '@sanity/client': 6.22.2
       '@types/react': 18.3.12
     transitivePeerDependencies:
       - debug
@@ -7463,8 +7448,8 @@ snapshots:
 
   '@sanity/util@3.62.3(debug@4.3.7)':
     dependencies:
-      '@sanity/client': 6.22.2
-      '@sanity/types': 3.62.3
+      '@sanity/client': 6.22.2(debug@4.3.7)
+      '@sanity/types': 3.62.3(debug@4.3.7)
       get-random-values-esm: 1.0.2
       moment: 2.30.1
       rxjs: 7.8.1
@@ -9495,10 +9480,6 @@ snapshots:
     optionalDependencies:
       debug: 2.6.9
 
-  follow-redirects@1.15.9(debug@4.3.7):
-    optionalDependencies:
-      debug: 4.3.7
-
   for-each@0.3.3:
     dependencies:
       is-callable: 1.2.7
@@ -9593,24 +9574,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  get-it@8.6.5:
-    dependencies:
-      '@types/follow-redirects': 1.14.4
-      '@types/progress-stream': 2.0.5
-      decompress-response: 7.0.0
-      follow-redirects: 1.15.9(debug@2.6.9)
-      is-retry-allowed: 2.2.0
-      progress-stream: 2.0.0
-      tunnel-agent: 0.6.0
-    transitivePeerDependencies:
-      - debug
-
   get-it@8.6.5(debug@4.3.7):
     dependencies:
       '@types/follow-redirects': 1.14.4
       '@types/progress-stream': 2.0.5
       decompress-response: 7.0.0
-      follow-redirects: 1.15.9(debug@4.3.7)
+      follow-redirects: 1.15.9(debug@2.6.9)
       is-retry-allowed: 2.2.0
       progress-stream: 2.0.0
       tunnel-agent: 0.6.0
@@ -11470,7 +11439,7 @@ snapshots:
       '@sanity/bifur-client': 0.4.1
       '@sanity/block-tools': 3.62.3(debug@4.3.7)
       '@sanity/cli': 3.62.3(react@18.3.1)
-      '@sanity/client': 6.22.2
+      '@sanity/client': 6.22.2(debug@4.3.7)
       '@sanity/color': 3.0.6
       '@sanity/diff': 3.62.3
       '@sanity/diff-match-patch': 3.1.1
@@ -11486,7 +11455,7 @@ snapshots:
       '@sanity/presentation': 1.17.7(@sanity/client@6.22.2(debug@4.3.7))(@sanity/color@3.0.6)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@sanity/schema': 3.62.3(debug@4.3.7)
       '@sanity/telemetry': 0.7.9(react@18.3.1)
-      '@sanity/types': 3.62.3
+      '@sanity/types': 3.62.3(debug@4.3.7)
       '@sanity/ui': 2.8.13(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@sanity/util': 3.62.3(debug@4.3.7)
       '@sanity/uuid': 3.0.2
