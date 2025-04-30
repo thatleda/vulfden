@@ -1,5 +1,15 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>sanity-io/renovate-config"],
-  "assignees": ["thatleda"]
+  "extends": ["config:recommended"],
+  "assignees": ["thatleda"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  },
+  "packageRules": [
+    {
+      "matchDepTypes": "devDependencies",
+      "automerge": true
+    }
+  ]
 }
