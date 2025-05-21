@@ -43,8 +43,8 @@ importers:
         version: 6.1.18(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
     devDependencies:
       '@antfu/eslint-config':
-        specifier: 4.13.1
-        version: 4.13.1(@eslint-react/eslint-plugin@1.49.0(eslint@9.27.0)(ts-api-utils@2.1.0(typescript@5.8.3))(typescript@5.8.3))(@vue/compiler-sfc@3.5.14)(eslint-plugin-react-hooks@5.2.0(eslint@9.27.0))(eslint-plugin-react-refresh@0.4.20(eslint@9.27.0))(eslint@9.27.0)(typescript@5.8.3)
+        specifier: 4.13.2
+        version: 4.13.2(@eslint-react/eslint-plugin@1.49.0(eslint@9.27.0)(ts-api-utils@2.1.0(typescript@5.8.3))(typescript@5.8.3))(@vue/compiler-sfc@3.5.14)(eslint-plugin-react-hooks@5.2.0(eslint@9.27.0))(eslint-plugin-react-refresh@0.4.20(eslint@9.27.0))(eslint@9.27.0)(typescript@5.8.3)
       '@eslint-react/eslint-plugin':
         specifier: 1.49.0
         version: 1.49.0(eslint@9.27.0)(ts-api-utils@2.1.0(typescript@5.8.3))(typescript@5.8.3)
@@ -94,8 +94,8 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@antfu/eslint-config@4.13.1':
-    resolution: {integrity: sha512-Ldv0gzQEDH/M+6NfhVBK/9NTDwsYJuHHJBPaFQN9X6LGd927sfEWzMHQdEbrA7f8Rr6abbinReifK7OjDipJ/g==}
+  '@antfu/eslint-config@4.13.2':
+    resolution: {integrity: sha512-F+IVIQUCfw6eW4H06c9a9USJ3UOnoBx4I0qsTL3kO6GcyJB6mwk+nawFf95DfHKT3fJKv58YPPz0XCmsY/w0XA==}
     hasBin: true
     peerDependencies:
       '@eslint-react/eslint-plugin': ^1.38.4
@@ -3436,8 +3436,8 @@ packages:
     peerDependencies:
       eslint: ^9.5.0
 
-  eslint-flat-config-utils@2.0.1:
-    resolution: {integrity: sha512-brf0eAgQ6JlKj3bKfOTuuI7VcCZvi8ZCD1MMTVoEvS/d38j8cByZViLFALH/36+eqB17ukmfmKq3bWzGvizejA==}
+  eslint-flat-config-utils@2.1.0:
+    resolution: {integrity: sha512-6fjOJ9tS0k28ketkUcQ+kKptB4dBZY2VijMZ9rGn8Cwnn1SH0cZBoPXT8AHBFHxmHcLFQK9zbELDinZ2Mr1rng==}
 
   eslint-import-resolver-node@0.3.9:
     resolution: {integrity: sha512-WFj2isz22JahUv+B788TlO3N6zL3nNJGU8CcZbPZvVEkBPaJdCV4vy5wyghty5ROFbCRnm132v8BScu5/1BQ8g==}
@@ -7047,7 +7047,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.8
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@antfu/eslint-config@4.13.1(@eslint-react/eslint-plugin@1.49.0(eslint@9.27.0)(ts-api-utils@2.1.0(typescript@5.8.3))(typescript@5.8.3))(@vue/compiler-sfc@3.5.14)(eslint-plugin-react-hooks@5.2.0(eslint@9.27.0))(eslint-plugin-react-refresh@0.4.20(eslint@9.27.0))(eslint@9.27.0)(typescript@5.8.3)':
+  '@antfu/eslint-config@4.13.2(@eslint-react/eslint-plugin@1.49.0(eslint@9.27.0)(ts-api-utils@2.1.0(typescript@5.8.3))(typescript@5.8.3))(@vue/compiler-sfc@3.5.14)(eslint-plugin-react-hooks@5.2.0(eslint@9.27.0))(eslint-plugin-react-refresh@0.4.20(eslint@9.27.0))(eslint@9.27.0)(typescript@5.8.3)':
     dependencies:
       '@antfu/install-pkg': 1.1.0
       '@clack/prompts': 0.10.1
@@ -7061,7 +7061,7 @@ snapshots:
       cac: 6.7.14
       eslint: 9.27.0
       eslint-config-flat-gitignore: 2.1.0(eslint@9.27.0)
-      eslint-flat-config-utils: 2.0.1
+      eslint-flat-config-utils: 2.1.0
       eslint-merge-processors: 2.0.0(eslint@9.27.0)
       eslint-plugin-antfu: 3.1.1(eslint@9.27.0)
       eslint-plugin-command: 3.2.0(eslint@9.27.0)
@@ -10380,7 +10380,7 @@ snapshots:
 
   builtins@5.1.0:
     dependencies:
-      semver: 7.5.4
+      semver: 7.7.2
 
   cac@6.7.14: {}
 
@@ -11133,7 +11133,7 @@ snapshots:
       '@eslint/compat': 1.2.9(eslint@9.27.0)
       eslint: 9.27.0
 
-  eslint-flat-config-utils@2.0.1:
+  eslint-flat-config-utils@2.1.0:
     dependencies:
       pathe: 2.0.3
 
@@ -11910,7 +11910,7 @@ snapshots:
       get-it: 8.6.3
       registry-auth-token: 5.1.0
       registry-url: 5.1.0
-      semver: 7.5.4
+      semver: 7.7.2
     transitivePeerDependencies:
       - debug
 
@@ -13248,7 +13248,7 @@ snapshots:
       ignore-by-default: 1.0.1
       minimatch: 3.1.2
       pstree.remy: 1.1.8
-      semver: 7.5.4
+      semver: 7.7.2
       simple-update-notifier: 2.0.0
       supports-color: 5.5.0
       touch: 3.1.1
@@ -14499,7 +14499,7 @@ snapshots:
 
   simple-update-notifier@2.0.0:
     dependencies:
-      semver: 7.5.4
+      semver: 7.7.2
 
   simple-wcswidth@1.0.1: {}
 
