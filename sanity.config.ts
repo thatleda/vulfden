@@ -1,9 +1,9 @@
 import { visionTool } from '@sanity/vision'
 import { theme } from 'https://themer.sanity.build/api/hues?preset=verdant'
 import { defineConfig } from 'sanity'
-import { structureTool } from 'sanity/structure'
 import { media } from 'sanity-plugin-media'
 import { nyanBannerPlugin } from 'sanity-plugin-nyan-banner'
+import { structureTool } from 'sanity/structure'
 import { schemaTypes } from './schemas'
 
 export default defineConfig({
