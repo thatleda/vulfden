@@ -21,6 +21,7 @@
     "@sanity/structure": "2.36.2",
     "@sanity/ui": "2.15.18",
     "@sanity/vision": "3.90.0",
+    "netlify-cli": "^21.5.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-is": "19.1.0",
