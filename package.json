@@ -13,7 +13,7 @@
     "start": "sanity start",
     "lint": "eslint . --fix",
     "build": "sanity build",
-    "deploy": "sanity deploy",
+    "deploy": "netlify deploy",
     "deploy-graphql": "sanity graphql deploy"
   },
   "dependencies": {
