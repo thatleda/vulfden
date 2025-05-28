@@ -7,26 +7,25 @@
   "keywords": [
     "sanity"
   ],
-  "main": "package.json",
   "scripts": {
     "dev": "sanity dev",
     "start": "sanity start",
     "lint": "eslint . --fix",
     "build": "sanity build",
-    "deploy": "netlify deploy dist"
+    "deploy": "netlify deploy"
   },
   "dependencies": {
     "@sanity/icons": "3.7.0",
     "@sanity/structure": "2.36.2",
     "@sanity/ui": "2.15.18",
     "@sanity/vision": "3.90.0",
-    "netlify-cli": "^21.5.0",
+    "netlify-cli": "21.5.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-is": "19.1.0",
     "sanity": "3.90.0",
     "sanity-plugin-media": "3.0.2",
-    "sanity-plugin-nyan-banner": "^0.1.1",
+    "sanity-plugin-nyan-banner": "0.1.1",
     "styled-components": "6.1.18"
   },
   "devDependencies": {

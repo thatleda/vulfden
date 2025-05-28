@@ -21,7 +21,7 @@ importers:
         specifier: 3.90.0
         version: 3.90.0(@babel/runtime@7.27.1)(@codemirror/lint@6.8.5)(@codemirror/theme-one-dark@6.1.2)(@emotion/is-prop-valid@1.2.2)(codemirror@6.0.1)(react-dom@19.1.0(react@19.1.0))(react-is@19.1.0)(react@19.1.0)(styled-components@6.1.18(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
       netlify-cli:
-        specifier: ^21.5.0
+        specifier: 21.5.0
         version: 21.5.0(@types/node@22.15.21)(picomatch@4.0.2)(rollup@4.41.1)
       react:
         specifier: 19.1.0
@@ -15956,7 +15956,7 @@ snapshots:
   get-it@8.6.3:
     dependencies:
       decompress-response: 7.0.0
-      follow-redirects: 1.15.9(debug@2.6.9)
+      follow-redirects: 1.15.9(debug@4.4.0)
       is-retry-allowed: 2.2.0
       progress-stream: 2.0.0
       tunnel-agent: 0.6.0
@@ -15967,7 +15967,7 @@ snapshots:
     dependencies:
       '@types/follow-redirects': 1.14.4
       decompress-response: 7.0.0
-      follow-redirects: 1.15.9(debug@2.6.9)
+      follow-redirects: 1.15.9(debug@4.4.0)
       is-retry-allowed: 2.2.0
       through2: 4.0.2
       tunnel-agent: 0.6.0

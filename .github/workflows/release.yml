@@ -24,4 +24,4 @@ jobs:
       - name: Build production bundle
         run: pnpm run build
       - name: Deploy to production
-        run: pnpm run deploy --prod --site ${{secrets.NETLIFY_SITE_ID}} --auth ${{secrets.NETLIFY_TOKEN}}
+        run: pnpm run deploy --dir ./dist --prod --site ${{secrets.NETLIFY_SITE_ID}} --auth ${{secrets.NETLIFY_TOKEN}}
