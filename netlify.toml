@@ -11,7 +11,7 @@ ID = "6b1b74c8-f3d2-4849-9697-2fd679f40077"
 [functions."*"]
 
 [build]
-publish = "/home/runner/work/vulfden/vulfden/dist"
+publish = "dist"
 publishOrigin = "default"
 commandOrigin = "ui"
 command = "pnpm run build"
