@@ -11,6 +11,7 @@
     "dev": "sanity dev",
     "start": "sanity start",
     "lint": "eslint . --fix",
+    "lint:ci": "eslint .",
     "build": "sanity build",
     "deploy": "netlify deploy"
   },
