@@ -21,8 +21,8 @@ importers:
         specifier: 3.90.0
         version: 3.90.0(@babel/runtime@7.27.4)(@codemirror/lint@6.8.5)(@codemirror/theme-one-dark@6.1.2)(@emotion/is-prop-valid@1.2.2)(codemirror@6.0.1)(react-dom@19.1.0(react@19.1.0))(react-is@19.1.0)(react@19.1.0)(styled-components@6.1.18(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
       netlify-cli:
-        specifier: 21.5.1
-        version: 21.5.1(@types/node@22.15.29)(picomatch@4.0.2)(rollup@4.41.1)
+        specifier: 21.5.2
+        version: 21.5.2(@types/node@22.15.29)(picomatch@4.0.2)(rollup@4.41.1)
       react:
         specifier: 19.1.0
         version: 19.1.0
@@ -6800,8 +6800,8 @@ packages:
   nested-error-stacks@2.1.1:
     resolution: {integrity: sha512-9iN1ka/9zmX1ZvLV9ewJYEk9h7RyRRtqdK0woXcqohu8EWIerfPUjYJPg0ULy0UqP7cslmdGc8xKDJcojlKiaw==}
 
-  netlify-cli@21.5.1:
-    resolution: {integrity: sha512-RP6TU9YJwoCMGuLk3CXsROXL5spodrrCssEh49lyhPjfMIpM+UfGBsB/GVQPhtQHHgmoKvr94I9SmEOHHEyp8Q==}
+  netlify-cli@21.5.2:
+    resolution: {integrity: sha512-nJhi/9EzI7ZqtJ+gn+hqrYL8NiypEw0sZYtLAjoj3m5XUcg/87ysDIwF7FubSlCvEpIElZg65p56Q0reO/45Lg==}
     engines: {node: '>=18.14.0'}
     hasBin: true
 
@@ -17852,7 +17852,7 @@ snapshots:
 
   nested-error-stacks@2.1.1: {}
 
-  netlify-cli@21.5.1(@types/node@22.15.29)(picomatch@4.0.2)(rollup@4.41.1):
+  netlify-cli@21.5.2(@types/node@22.15.29)(picomatch@4.0.2)(rollup@4.41.1):
     dependencies:
       '@fastify/static': 7.0.4
       '@netlify/api': 13.4.0
