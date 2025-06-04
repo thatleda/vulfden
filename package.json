@@ -25,7 +25,7 @@
     "react-dom": "19.1.0",
     "react-is": "19.1.0",
     "sanity": "3.91.0",
-    "sanity-plugin-media": "3.0.2",
+    "sanity-plugin-media": "3.0.3",
     "sanity-plugin-nyan-banner": "0.1.2",
     "styled-components": "6.1.18"
   },
