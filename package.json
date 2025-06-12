@@ -27,7 +27,7 @@
     "sanity": "3.92.0",
     "sanity-plugin-media": "3.0.3",
     "sanity-plugin-nyan-banner": "0.1.2",
-    "styled-components": "6.1.18"
+    "styled-components": "6.1.19"
   },
   "devDependencies": {
     "@antfu/eslint-config": "4.14.1",
