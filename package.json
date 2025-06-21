@@ -16,7 +16,7 @@
     "deploy": "netlify deploy"
   },
   "dependencies": {
-    "@sanity/icons": "3.7.0",
+    "@sanity/icons": "3.7.4",
     "@sanity/structure": "2.36.2",
     "@sanity/ui": "2.16.2",
     "@sanity/vision": "3.93.0",
