@@ -26,7 +26,6 @@
     "react-is": "19.2.0",
     "sanity": "4.10.2",
     "sanity-plugin-media": "4.0.0",
-    "sanity-plugin-nyan-banner": "0.1.2",
     "styled-components": "6.1.19"
   },
   "devDependencies": {
