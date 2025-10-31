@@ -29,7 +29,7 @@
     "styled-components": "6.1.19"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "6.1.0",
+    "@antfu/eslint-config": "6.2.0",
     "@eslint-react/eslint-plugin": "2.2.4",
     "@sanity/eslint-config-studio": "5.0.2",
     "@types/react": "19.2.2",
