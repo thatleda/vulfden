@@ -16,28 +16,28 @@
     "deploy": "netlify deploy"
   },
   "dependencies": {
-    "@sanity/icons": "3.7.4",
-    "@sanity/structure": "2.36.2",
-    "@sanity/ui": "3.1.11",
-    "@sanity/vision": "4.20.3",
-    "netlify-cli": "23.12.3",
-    "react": "19.2.1",
-    "react-dom": "19.2.1",
-    "react-is": "19.2.1",
-    "sanity": "4.20.3",
-    "sanity-plugin-media": "4.1.0",
-    "styled-components": "6.1.19"
+    "@sanity/icons": "catalog:",
+    "@sanity/structure": "catalog:",
+    "@sanity/ui": "catalog:",
+    "@sanity/vision": "catalog:",
+    "netlify-cli": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "react-is": "catalog:",
+    "sanity": "catalog:",
+    "sanity-plugin-media": "catalog:",
+    "styled-components": "catalog:"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "6.3.0",
-    "@eslint-react/eslint-plugin": "2.3.12",
-    "@sanity/eslint-config-studio": "5.0.2",
-    "@types/react": "19.2.7",
-    "@types/styled-components": "5.1.36",
-    "eslint": "9.39.1",
-    "eslint-plugin-react-hooks": "7.0.1",
-    "eslint-plugin-react-refresh": "0.4.24",
-    "prettier": "3.7.4",
-    "typescript": "5.9.3"
+    "@antfu/eslint-config": "catalog:",
+    "@eslint-react/eslint-plugin": "catalog:",
+    "@sanity/eslint-config-studio": "catalog:",
+    "@types/react": "catalog:",
+    "@types/styled-components": "catalog:",
+    "eslint": "catalog:",
+    "eslint-plugin-react-hooks": "catalog:",
+    "eslint-plugin-react-refresh": "catalog:",
+    "prettier": "catalog:",
+    "typescript": "catalog:"
   }
 }
