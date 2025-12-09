@@ -6,7 +6,7 @@ trustPolicy: no-downgrade
 
 catalog:
   '@antfu/eslint-config': 6.4.2
-  '@eslint-react/eslint-plugin': 2.3.12
+  '@eslint-react/eslint-plugin': 2.3.13
   '@sanity/eslint-config-studio': 5.0.2
   '@sanity/icons': 3.7.4
   '@sanity/structure': 2.36.2
