@@ -1,15 +1,41 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"],
-  "assignees": ["thatleda"],
+  "extends": [
+    "config:recommended",
+    ":dependencyDashboard"
+  ],
+  "assignees": [
+    "thatleda"
+  ],
   "lockFileMaintenance": {
     "enabled": true,
-    "automerge": true
+    "automerge": true,
+    "schedule": [
+      "before 5am on monday"
+    ]
   },
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "labels": [
+      "security"
+    ]
+  },
+  "osvVulnerabilityAlerts": true,
   "packageRules": [
     {
-      "matchDepTypes": ["pnpm.catalog"],
-      "rangeStrategy": "update-lockfile"
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "automerge": false,
+      "labels": [
+        "major-update"
+      ]
     }
   ]
 }
