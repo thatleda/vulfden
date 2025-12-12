@@ -21,9 +21,9 @@ catalog:
   eslint-plugin-react-refresh: 0.4.24
   netlify-cli: 23.12.3
   prettier: 3.7.4
-  react: 19.2.1
-  react-dom: 19.2.1
-  react-is: 19.2.1
+  react: 19.2.3
+  react-dom: 19.2.3
+  react-is: 19.2.3
   sanity: 4.20.3
   sanity-plugin-media: 4.1.0
   styled-components: 6.1.19
