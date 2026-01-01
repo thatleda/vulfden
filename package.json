@@ -30,14 +30,9 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:",
-    "@eslint-react/eslint-plugin": "catalog:",
-    "@sanity/eslint-config-studio": "catalog:",
     "@types/react": "catalog:",
     "@types/styled-components": "catalog:",
     "eslint": "catalog:",
-    "eslint-plugin-react-hooks": "catalog:",
-    "eslint-plugin-react-refresh": "catalog:",
-    "prettier": "catalog:",
     "typescript": "catalog:"
   }
 }
