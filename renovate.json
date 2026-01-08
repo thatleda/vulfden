@@ -1,5 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "abandonmentThreshold": "6 months",
   "extends": [
     "config:recommended",
     ":dependencyDashboard"
@@ -7,13 +8,7 @@
   "assignees": [
     "thatleda"
   ],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "automerge": true,
-    "schedule": [
-      "before 5am on monday"
-    ]
-  },
+  "rebaseWhen": "behind-base-branch",
   "vulnerabilityAlerts": {
     "enabled": true,
     "labels": [
