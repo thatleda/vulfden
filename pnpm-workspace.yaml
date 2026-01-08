@@ -23,3 +23,21 @@ cleanupUnusedCatalogs: true
 shellEmulator: true
 
 trustPolicy: no-downgrade
+
+trustPolicyExclude:
+  - chokidar@4.0.3
+  - '@netlify/edge-bundler'
+  - '@netlify/zip-it-and-ship-it'
+  - '@netlify/serverless-functions-api'
+  - react-redux@9.2.0
+  - '@reduxjs/toolkit@2.11.0'
+  - pino@9.14.0
+  - reselect@5.1.1
+  - groq@3.88.1-typegen-experimental.0
+  - semver
+  - undici
+  - '@octokit/plugin-paginate-rest@9.2.2'
+  - '@octokit/endpoint@9.0.6'
+
+packages:
+  - .
