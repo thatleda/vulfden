@@ -7,6 +7,9 @@
   "keywords": [
     "sanity"
   ],
+  "engines": {
+    "node": "24.13.0"
+  },
   "scripts": {
     "dev": "sanity dev",
     "start": "sanity start",
