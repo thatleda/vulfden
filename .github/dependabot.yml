@@ -7,8 +7,6 @@ updates:
       interval: daily
     assignees:
       - thatleda
-    labels:
-      - dependencies
 
   - package-ecosystem: npm
     directory: /
@@ -17,10 +15,8 @@ updates:
       interval: daily
     assignees:
       - thatleda
-    labels:
-      - dependencies
     allow:
-      - dependency-type: all
+      - dependency-type: direct
     versioning-strategy: auto
     pull-request-branch-name:
       separator: /
