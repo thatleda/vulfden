@@ -2,7 +2,7 @@
   "name": "vulfden",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@10.29.3",
+  "packageManager": "pnpm@10.30.1",
   "license": "UNLICENSED",
   "keywords": [
     "sanity"
@@ -33,9 +33,11 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:",
+    "@eslint-react/eslint-plugin": "catalog:",
     "@types/react": "catalog:",
     "@types/styled-components": "catalog:",
     "eslint": "catalog:",
+    "eslint-plugin-react-refresh": "catalog:",
     "typescript": "catalog:"
   }
 }
