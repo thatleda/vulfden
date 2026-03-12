@@ -37,8 +37,8 @@ catalogs:
       specifier: ^0.5.2
       version: 0.5.2
     netlify-cli:
-      specifier: 24.1.0
-      version: 24.1.0
+      specifier: 24.2.0
+      version: 24.2.0
     react:
       specifier: 19.2.4
       version: 19.2.4
@@ -79,7 +79,7 @@ importers:
         version: 5.14.1(@babel/runtime@7.28.6)(@codemirror/lint@6.9.4)(@codemirror/theme-one-dark@6.1.3)(@emotion/is-prop-valid@1.4.0)(codemirror@6.0.2)(react-dom@19.2.4(react@19.2.4))(react-is@19.2.4)(react@19.2.4)(sanity@5.14.1(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.0.1)(@types/node@25.2.3)(@types/react@19.2.14)(babel-plugin-react-compiler@1.0.0)(immer@11.1.3)(jiti@2.6.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(styled-components@6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2))(styled-components@6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4))
       netlify-cli:
         specifier: 'catalog:'
-        version: 24.1.0(@swc/core@1.15.11)(@types/node@25.2.3)(picomatch@4.0.3)(rollup@4.57.1)
+        version: 24.2.0(@swc/core@1.15.11)(@types/node@25.2.3)(picomatch@4.0.3)(rollup@4.57.1)
       react:
         specifier: 'catalog:'
         version: 19.2.4
@@ -1819,8 +1819,8 @@ packages:
     resolution: {integrity: sha512-ZSDSR5RuV9qkW4L2uwKvwDdSGBqef2NyLGsrdoEx0Yj7ulSWjPSTVCrl+uY23lgaEsoCVj+dSbN9yC+uXw7dJw==}
     engines: {node: '>=20.6.1'}
 
-  '@netlify/api@14.0.17':
-    resolution: {integrity: sha512-96C0og8NfSotKvLyfFH2a0LBKWH5nseEnSq2TsRDgpUlrzQKYylbva9J+B7CtNZ/DfKgR/k0AncbEXtRvDuaLg==}
+  '@netlify/api@14.0.18':
+    resolution: {integrity: sha512-4STtNybPXALobjTHEIU48Huv9Si1sNxgHbtYslNBPvQu9/aTpxhRHDZuUOkE/QuhHSbaCNCWJSYFGIRxpCdXxg==}
     engines: {node: '>=18.14.0'}
 
   '@netlify/binary-info@1.0.0':
@@ -2001,8 +2001,8 @@ packages:
     resolution: {integrity: sha512-siVwmrp7Ow+7jLALi6jXOja4Y4uHMMgOLLQMgd+OZ1TESOstrJvkUisJEDAc9hx7u0v/B0mh5g1g1huiH3uS3A==}
     engines: {node: '>=18.14.0'}
 
-  '@netlify/open-api@2.50.0':
-    resolution: {integrity: sha512-nvtP3GQqAg2fDCzZIz/PNIjgdQcbKRqJlRRQquRfBTP3DJi4254fMApWvBoj6+v07eowy2/t9xXHu+KRPw6iKw==}
+  '@netlify/open-api@2.51.0':
+    resolution: {integrity: sha512-pnGsLklHMfx8BKbWsiK8ZZ7h+vfE8Xh5ox0Lq2n0UMJUZL+iLMqXDw4tc3Udp9JxmyC06xBE6yYkOTI82VV0aA==}
     engines: {node: '>=14.8.0'}
 
   '@netlify/opentelemetry-utils@2.0.2':
@@ -2010,10 +2010,6 @@ packages:
     engines: {node: '>=18.14.0'}
     peerDependencies:
       '@opentelemetry/api': ~1.8.0
-
-  '@netlify/otel@5.1.1':
-    resolution: {integrity: sha512-WCSlOsd0a0Vn+iPC5PYru7rq/5/QpBGnvam6C7cq9DEiTFqfwExNoxk6SWI0T6nI56gkBryaGsENLTEnUue1lg==}
-    engines: {node: ^18.14.0 || >=20.6.1}
 
   '@netlify/otel@5.1.2':
     resolution: {integrity: sha512-tIA8W/rC+Duz815uwoEaFTZ4oiIU478gE180hNREMWefJxBcZoS5GYky808FdGNbML2sxNX56LhkD20rSnUTbg==}
@@ -5439,10 +5435,6 @@ packages:
     resolution: {integrity: sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==}
     engines: {node: 6.* || 8.* || >= 10.*}
 
-  get-east-asian-width@1.4.0:
-    resolution: {integrity: sha512-QZjmEOC+IT1uk6Rx0sX22V6uHWVwbdbxf1faPqJ1QhLdGgsRGCZoyaQBm/piRdJy/D2um6hM1UP7ZEeQ4EkP+Q==}
-    engines: {node: '>=18'}
-
   get-east-asian-width@1.5.0:
     resolution: {integrity: sha512-CQ+bEO+Tva/qlmw24dCejulK5pMzVnUOFOijVogd3KQs07HnRIgp8TGipvCCRT06xeYEbpbgwaCxglFyiuIcmA==}
     engines: {node: '>=18'}
@@ -6941,8 +6933,8 @@ packages:
     resolution: {integrity: sha512-8Ofs/AUQh8MaEcrlq5xOX0CQ9ypTF5dl78mjlMNfOK08fzpgTHQRQPBxcPlEtIw0yRpws+Zo/3r+5WRby7u3Gg==}
     engines: {node: '>= 0.6'}
 
-  netlify-cli@24.1.0:
-    resolution: {integrity: sha512-65BBjePaeRnZ4+M/4ek1NccoxxejHIz4Ye83GrK/57wQD09ctiviJUgaUvnm+JCbzvs59sSiWMq2IE7gZSwXLw==}
+  netlify-cli@24.2.0:
+    resolution: {integrity: sha512-xEVPZFB7A9O257FwNlc5zougcnlXfeQLkLgaOi5WcM39Ehl/g6nVOe5DQyW7x0GYogFfeBLK0FnY0ENVXV/O0Q==}
     engines: {node: '>=20.12.2'}
     hasBin: true
 
@@ -8384,10 +8376,6 @@ packages:
     resolution: {integrity: sha512-tsaTIkKW9b4N+AEj+SVA+WhJzV7/zMhcSu78mLKWSk7cXMOSHsBKFWUs0fWwq8QyK3MgJBQRX6Gbi4kYbdvGkQ==}
     engines: {node: '>=18'}
 
-  string-width@8.1.1:
-    resolution: {integrity: sha512-KpqHIdDL9KwYk22wEOg/VIqYbrnLeSApsKT/bSj6Ez7pn3CftUiLAv2Lccpq1ALcpLV9UX1Ppn92npZWu2w/aw==}
-    engines: {node: '>=20'}
-
   string-width@8.2.0:
     resolution: {integrity: sha512-6hJPQ8N0V0P3SNmP6h2J99RLuzrWz2gvT7VnK5tKvrNqJoyS9W4/Fb8mo31UiPvy00z7DQXkP2hnKBVav76thw==}
     engines: {node: '>=20'}
@@ -8417,10 +8405,6 @@ packages:
   strip-ansi@6.0.1:
     resolution: {integrity: sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==}
     engines: {node: '>=8'}
-
-  strip-ansi@7.1.2:
-    resolution: {integrity: sha512-gmBGslpoQJtgnMAvOVqGZpEz9dyoKTCzy2nfz/n8aIFhN/jCE/rCmcxabB6jOOHV+0WNnylOxaxBQPSvcWklhA==}
-    engines: {node: '>=12'}
 
   strip-ansi@7.2.0:
     resolution: {integrity: sha512-yDPMNjp4WyfYBkHnjIRLfca1i6KMyGCtsVgoKe/z1+6vukgaENdgGBZt+ZmKPc4gavvEZ5OgHfHdrazhgNyG7w==}
@@ -11253,7 +11237,7 @@ snapshots:
     dependencies:
       string-width: 5.1.2
       string-width-cjs: string-width@4.2.3
-      strip-ansi: 7.1.2
+      strip-ansi: 7.2.0
       strip-ansi-cjs: strip-ansi@6.0.1
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: wrap-ansi@7.0.0
@@ -11361,29 +11345,29 @@ snapshots:
 
   '@netlify/ai@0.4.0':
     dependencies:
-      '@netlify/api': 14.0.17
+      '@netlify/api': 14.0.18
 
-  '@netlify/api@14.0.17':
+  '@netlify/api@14.0.18':
     dependencies:
-      '@netlify/open-api': 2.50.0
+      '@netlify/open-api': 2.51.0
       node-fetch: 3.3.2
       p-wait-for: 5.0.2
       picoquery: 2.5.0
 
   '@netlify/binary-info@1.0.0': {}
 
-  '@netlify/blobs@10.7.0(supports-color@10.2.2)':
+  '@netlify/blobs@10.7.0':
     dependencies:
       '@netlify/dev-utils': 4.3.3
-      '@netlify/otel': 5.1.1(supports-color@10.2.2)
+      '@netlify/otel': 5.1.2(supports-color@10.2.2)
       '@netlify/runtime-utils': 2.3.0
     transitivePeerDependencies:
       - supports-color
 
-  '@netlify/blobs@10.7.1':
+  '@netlify/blobs@10.7.1(supports-color@10.2.2)':
     dependencies:
       '@netlify/dev-utils': 4.4.0
-      '@netlify/otel': 5.1.2
+      '@netlify/otel': 5.1.2(supports-color@10.2.2)
       '@netlify/runtime-utils': 2.3.0
     transitivePeerDependencies:
       - supports-color
@@ -11403,7 +11387,7 @@ snapshots:
   '@netlify/build@35.8.8(@opentelemetry/api@1.8.0)(@swc/core@1.15.11)(@types/node@25.2.3)(picomatch@4.0.3)(rollup@4.57.1)':
     dependencies:
       '@bugsnag/js': 8.8.1
-      '@netlify/blobs': 10.7.0(supports-color@10.2.2)
+      '@netlify/blobs': 10.7.1(supports-color@10.2.2)
       '@netlify/cache-utils': 6.0.5
       '@netlify/config': 24.4.3
       '@netlify/edge-bundler': 14.9.15
@@ -11415,7 +11399,7 @@ snapshots:
       '@netlify/zip-it-and-ship-it': 14.4.2(rollup@4.57.1)(supports-color@10.2.2)
       '@opentelemetry/api': 1.8.0
       '@sindresorhus/slugify': 2.2.1
-      ansi-escapes: 7.2.0
+      ansi-escapes: 7.3.0
       ansis: 4.2.0
       clean-stack: 5.3.0
       execa: 8.0.1
@@ -11481,7 +11465,7 @@ snapshots:
   '@netlify/config@24.4.3':
     dependencies:
       '@iarna/toml': 2.2.5
-      '@netlify/api': 14.0.17
+      '@netlify/api': 14.0.18
       '@netlify/headers-parser': 9.0.3
       '@netlify/redirect-parser': 15.0.4
       chalk: 5.6.2
@@ -11550,7 +11534,7 @@ snapshots:
   '@netlify/dev@4.16.0(rollup@4.57.1)':
     dependencies:
       '@netlify/ai': 0.4.0
-      '@netlify/blobs': 10.7.1
+      '@netlify/blobs': 10.7.1(supports-color@10.2.2)
       '@netlify/config': 24.4.3
       '@netlify/db-dev': 0.7.0
       '@netlify/dev-utils': 4.4.0
@@ -11631,7 +11615,7 @@ snapshots:
 
   '@netlify/functions-dev@1.2.0(rollup@4.57.1)':
     dependencies:
-      '@netlify/blobs': 10.7.1
+      '@netlify/blobs': 10.7.1(supports-color@10.2.2)
       '@netlify/dev-utils': 4.4.0
       '@netlify/functions': 5.1.2
       '@netlify/zip-it-and-ship-it': 14.4.2(rollup@4.57.1)(supports-color@10.2.2)
@@ -11786,23 +11770,13 @@ snapshots:
       '@netlify/local-functions-proxy-win32-ia32': 1.1.1
       '@netlify/local-functions-proxy-win32-x64': 1.1.1
 
-  '@netlify/open-api@2.50.0': {}
+  '@netlify/open-api@2.51.0': {}
 
   '@netlify/opentelemetry-utils@2.0.2(@opentelemetry/api@1.8.0)':
     dependencies:
       '@opentelemetry/api': 1.8.0
 
-  '@netlify/otel@5.1.1(supports-color@10.2.2)':
-    dependencies:
-      '@opentelemetry/api': 1.9.0
-      '@opentelemetry/core': 1.30.1(@opentelemetry/api@1.9.0)
-      '@opentelemetry/instrumentation': 0.203.0(@opentelemetry/api@1.9.0)(supports-color@10.2.2)
-      '@opentelemetry/resources': 1.30.1(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-trace-node': 1.30.1(@opentelemetry/api@1.9.0)
-    transitivePeerDependencies:
-      - supports-color
-
-  '@netlify/otel@5.1.2':
+  '@netlify/otel@5.1.2(supports-color@10.2.2)':
     dependencies:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/core': 1.30.1(@opentelemetry/api@1.9.0)
@@ -11837,7 +11811,7 @@ snapshots:
 
   '@netlify/runtime@4.1.17':
     dependencies:
-      '@netlify/blobs': 10.7.1
+      '@netlify/blobs': 10.7.1(supports-color@10.2.2)
       '@netlify/cache': 3.4.1
       '@netlify/runtime-utils': 2.3.0
       '@netlify/types': 2.3.0
@@ -16092,8 +16066,6 @@ snapshots:
 
   get-caller-file@2.0.5: {}
 
-  get-east-asian-width@1.4.0: {}
-
   get-east-asian-width@1.5.0: {}
 
   get-folder-size@5.0.0: {}
@@ -16794,7 +16766,7 @@ snapshots:
 
   is-fullwidth-code-point@5.1.0:
     dependencies:
-      get-east-asian-width: 1.4.0
+      get-east-asian-width: 1.5.0
 
   is-generator-function@1.1.2:
     dependencies:
@@ -17941,12 +17913,12 @@ snapshots:
 
   negotiator@1.0.0: {}
 
-  netlify-cli@24.1.0(@swc/core@1.15.11)(@types/node@25.2.3)(picomatch@4.0.3)(rollup@4.57.1):
+  netlify-cli@24.2.0(@swc/core@1.15.11)(@types/node@25.2.3)(picomatch@4.0.3)(rollup@4.57.1):
     dependencies:
       '@fastify/static': 9.0.0
       '@netlify/ai': 0.4.0
-      '@netlify/api': 14.0.17
-      '@netlify/blobs': 10.7.0(supports-color@10.2.2)
+      '@netlify/api': 14.0.18
+      '@netlify/blobs': 10.7.0
       '@netlify/build': 35.8.8(@opentelemetry/api@1.8.0)(@swc/core@1.15.11)(@types/node@25.2.3)(picomatch@4.0.3)(rollup@4.57.1)
       '@netlify/build-info': 10.4.0
       '@netlify/config': 24.4.3
@@ -18293,7 +18265,7 @@ snapshots:
       is-unicode-supported: 2.1.0
       log-symbols: 7.0.1
       stdin-discarder: 0.3.1
-      string-width: 8.1.1
+      string-width: 8.2.0
 
   os-name@6.1.0:
     dependencies:
@@ -19800,18 +19772,13 @@ snapshots:
     dependencies:
       eastasianwidth: 0.2.0
       emoji-regex: 9.2.2
-      strip-ansi: 7.1.2
+      strip-ansi: 7.2.0
 
   string-width@7.2.0:
     dependencies:
       emoji-regex: 10.6.0
-      get-east-asian-width: 1.4.0
-      strip-ansi: 7.1.2
-
-  string-width@8.1.1:
-    dependencies:
-      get-east-asian-width: 1.4.0
-      strip-ansi: 7.1.2
+      get-east-asian-width: 1.5.0
+      strip-ansi: 7.2.0
 
   string-width@8.2.0:
     dependencies:
@@ -19862,10 +19829,6 @@ snapshots:
   strip-ansi@6.0.1:
     dependencies:
       ansi-regex: 5.0.1
-
-  strip-ansi@7.1.2:
-    dependencies:
-      ansi-regex: 6.2.2
 
   strip-ansi@7.2.0:
     dependencies:
@@ -20009,12 +19972,12 @@ snapshots:
 
   terminal-link@4.0.0:
     dependencies:
-      ansi-escapes: 7.2.0
+      ansi-escapes: 7.3.0
       supports-hyperlinks: 3.2.0
 
   terminal-link@5.0.0:
     dependencies:
-      ansi-escapes: 7.2.0
+      ansi-escapes: 7.3.0
       supports-hyperlinks: 4.4.0
 
   text-decoder@1.2.3:
@@ -20369,7 +20332,7 @@ snapshots:
       ofetch: 1.5.1
       ufo: 1.6.3
     optionalDependencies:
-      '@netlify/blobs': 10.7.0(supports-color@10.2.2)
+      '@netlify/blobs': 10.7.0
 
   unstorage@1.17.4(@netlify/blobs@10.7.1):
     dependencies:
@@ -20382,7 +20345,7 @@ snapshots:
       ofetch: 1.5.1
       ufo: 1.6.3
     optionalDependencies:
-      '@netlify/blobs': 10.7.1
+      '@netlify/blobs': 10.7.1(supports-color@10.2.2)
 
   untildify@4.0.0: {}
 
@@ -20785,13 +20748,13 @@ snapshots:
     dependencies:
       ansi-styles: 6.2.3
       string-width: 5.1.2
-      strip-ansi: 7.1.2
+      strip-ansi: 7.2.0
 
   wrap-ansi@9.0.2:
     dependencies:
       ansi-styles: 6.2.3
       string-width: 7.2.0
-      strip-ansi: 7.1.2
+      strip-ansi: 7.2.0
 
   wrappy@1.0.2: {}
 
