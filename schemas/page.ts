@@ -3,6 +3,7 @@ import { DashboardIcon } from '@sanity/icons'
 import block from './block'
 import image from './image'
 
+const whitespaceRegex = /\s+/g
 export default {
   name: 'page',
   type: 'document',
@@ -27,7 +28,7 @@ export default {
       options: {
         source: 'title',
         slugify: (input: string) =>
-          input.toLowerCase().replace(/\s+/g, '-').slice(0, 200),
+          input.toLowerCase().replaceAll(whitespaceRegex, '-').slice(0, 200),
       },
     },
     {
