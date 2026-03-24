@@ -37,8 +37,8 @@ catalogs:
       specifier: ^0.5.2
       version: 0.5.2
     netlify-cli:
-      specifier: 24.4.0
-      version: 24.4.0
+      specifier: 24.4.1
+      version: 24.4.1
     react:
       specifier: 19.2.4
       version: 19.2.4
@@ -79,7 +79,7 @@ importers:
         version: 5.17.1(@babel/runtime@7.28.6)(@codemirror/lint@6.9.4)(@codemirror/theme-one-dark@6.1.3)(@emotion/is-prop-valid@1.4.0)(codemirror@6.0.2)(react-dom@19.2.4(react@19.2.4))(react-is@19.2.4)(react@19.2.4)(sanity@5.17.1(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.0.1)(@oclif/core@4.8.4)(@sanity/cli-core@1.1.2(@noble/hashes@2.0.1)(@sanity/telemetry@0.8.1(react@19.2.4))(@types/node@25.2.3)(jiti@2.6.1)(yaml@2.8.2))(@types/node@25.2.3)(@types/react@19.2.14)(immer@11.1.3)(jiti@2.6.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(styled-components@6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(typescript@5.9.3))(styled-components@6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4))
       netlify-cli:
         specifier: 'catalog:'
-        version: 24.4.0(@swc/core@1.15.11)(@types/node@25.2.3)(picomatch@4.0.3)(rollup@4.57.1)
+        version: 24.4.1(@swc/core@1.15.11)(@types/node@25.2.3)(picomatch@4.0.3)(rollup@4.57.1)
       react:
         specifier: 'catalog:'
         version: 19.2.4
@@ -1938,10 +1938,6 @@ packages:
     resolution: {integrity: sha512-wuiaKRbRLG/L049yR+7/p7xSKa4jx6JRBnweRYwP6mMYn9D+x/wccPgsxEMtKqthmow6frs7ZSrNYTt9U3yUdQ==}
     engines: {node: ^14.16.0 || >=16.0.0}
 
-  '@netlify/blobs@10.7.2':
-    resolution: {integrity: sha512-2fHKgTRko9XKwrqLWIIvfuwip4OzkfyBcG63KAcPYJE3SgqxrEvTSfQXka2ItFD61Nrf89cCnCSfplR4PeD7AQ==}
-    engines: {node: ^14.16.0 || >=16.0.0}
-
   '@netlify/blobs@10.7.4':
     resolution: {integrity: sha512-03lXstB4xxDKeYs2RTTZrUGRC0ea2nVZvkdGlw2A42AdK7KA6N0ocVmkIn9x91oqFsqK3dWJTAv2bzaLjsehXg==}
     engines: {node: ^14.16.0 || >=16.0.0}
@@ -1981,10 +1977,6 @@ packages:
 
   '@netlify/dev-utils@4.3.3':
     resolution: {integrity: sha512-qziF8R9kf7mRNgSpmUH96O0aV1ZiwK4c9ZecFQbDSQuYhgy9GY1WTjiQF0oQnohjTjWNtXhrU39LAeXWNLaBJg==}
-    engines: {node: ^18.14.0 || >=20}
-
-  '@netlify/dev-utils@4.4.1':
-    resolution: {integrity: sha512-vj2fJQg51cXrnZJ1NJdXZ3LWYoDFCa2Q9o6Zu7sXa8d3AOn2mw5z1jkQPug1Dl80oBp3niBNPU6iWJQQR+sxAA==}
     engines: {node: ^18.14.0 || >=20}
 
   '@netlify/dev-utils@4.4.3':
@@ -2126,10 +2118,6 @@ packages:
     engines: {node: '>=18.14.0'}
     peerDependencies:
       '@opentelemetry/api': ~1.8.0
-
-  '@netlify/otel@5.1.3':
-    resolution: {integrity: sha512-rnyh3V0rHzySPWD2mUys40hV8sDML8l46gGSLl7F+9DN4Y6ivaFXjsvNkSt/3B5ANq5Hw8LAavXgHRefyT8lRw==}
-    engines: {node: ^18.14.0 || >=20.6.1}
 
   '@netlify/otel@5.1.5':
     resolution: {integrity: sha512-RORbePN1ghdHp4pIkG3ccFMqmx5hwMfSyLGKp7bKVf1F5rSe1QjrCBp5xihEWI3xuh3fAqQroTlNYnoOud8RTQ==}
@@ -3658,6 +3646,10 @@ packages:
 
   agent-base@7.1.4:
     resolution: {integrity: sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ==}
+    engines: {node: '>= 14'}
+
+  agent-base@8.0.0:
+    resolution: {integrity: sha512-QT8i0hCz6C/KQ+KTAbSNwCHDGdmUJl2tp2ZpNlGSWCfhUNVbYG2WLE3MdZGBAgXPV4GAvjGMxo+C1hroyxmZEg==}
     engines: {node: '>= 14'}
 
   ajv-errors@3.0.0:
@@ -5769,6 +5761,10 @@ packages:
     resolution: {integrity: sha512-vK9P5/iUfdl95AI+JVyUuIcVtd4ofvtrOr3HNtM2yxC9bnMbEdp3x01OhQNnjb8IJYi38VlTE3mBXwcfvywuSw==}
     engines: {node: '>= 14'}
 
+  https-proxy-agent@8.0.0:
+    resolution: {integrity: sha512-YYeW+iCnAS3xhvj2dvVoWgsbca3RfQy/IlaNHHOtDmU0jMqPI9euIq3Y9BJETdxk16h9NHHCKqp/KB9nIMStCQ==}
+    engines: {node: '>= 14'}
+
   human-signals@2.1.0:
     resolution: {integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==}
     engines: {node: '>=10.17.0'}
@@ -6916,8 +6912,8 @@ packages:
     resolution: {integrity: sha512-8Ofs/AUQh8MaEcrlq5xOX0CQ9ypTF5dl78mjlMNfOK08fzpgTHQRQPBxcPlEtIw0yRpws+Zo/3r+5WRby7u3Gg==}
     engines: {node: '>= 0.6'}
 
-  netlify-cli@24.4.0:
-    resolution: {integrity: sha512-fGmV9vQe5/Z8N2vQKgcR8FEh81UvhFVRVuBZhzCP1pvU7+wkl/W7hgx4X5zAOy9nha4l2hCqQUms1OB9dbpZqg==}
+  netlify-cli@24.4.1:
+    resolution: {integrity: sha512-TEohjSJInmiyjf9ylTVQaiKOSNO8DMkNDCId4GNgIgH4Qo7hHllHjOL5isJlicp7rLSDo7D/yze6DSTLe6l5Aw==}
     engines: {node: '>=20.12.2'}
     hasBin: true
 
@@ -11269,7 +11265,7 @@ snapshots:
       node-fetch: 2.7.0
       nopt: 8.1.0
       semver: 7.7.4
-      tar: 7.5.11
+      tar: 7.5.12
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -11328,23 +11324,15 @@ snapshots:
   '@netlify/blobs@10.7.0':
     dependencies:
       '@netlify/dev-utils': 4.3.3
-      '@netlify/otel': 5.1.3(supports-color@10.2.2)
+      '@netlify/otel': 5.1.5(supports-color@10.2.2)
       '@netlify/runtime-utils': 2.3.0
     transitivePeerDependencies:
       - supports-color
 
-  '@netlify/blobs@10.7.2(supports-color@10.2.2)':
-    dependencies:
-      '@netlify/dev-utils': 4.4.1
-      '@netlify/otel': 5.1.3(supports-color@10.2.2)
-      '@netlify/runtime-utils': 2.3.0
-    transitivePeerDependencies:
-      - supports-color
-
-  '@netlify/blobs@10.7.4':
+  '@netlify/blobs@10.7.4(supports-color@10.2.2)':
     dependencies:
       '@netlify/dev-utils': 4.4.3
-      '@netlify/otel': 5.1.5
+      '@netlify/otel': 5.1.5(supports-color@10.2.2)
       '@netlify/runtime-utils': 2.3.0
     transitivePeerDependencies:
       - supports-color
@@ -11364,7 +11352,7 @@ snapshots:
   '@netlify/build@35.10.1(@opentelemetry/api@1.8.0)(@swc/core@1.15.11)(@types/node@25.2.3)(picomatch@4.0.3)(rollup@4.57.1)':
     dependencies:
       '@bugsnag/js': 8.8.1
-      '@netlify/blobs': 10.7.2(supports-color@10.2.2)
+      '@netlify/blobs': 10.7.4(supports-color@10.2.2)
       '@netlify/cache-utils': 6.0.5
       '@netlify/config': 24.4.4
       '@netlify/edge-bundler': 14.9.18
@@ -11490,24 +11478,6 @@ snapshots:
       uuid: 13.0.0
       write-file-atomic: 5.0.1
 
-  '@netlify/dev-utils@4.4.1':
-    dependencies:
-      '@whatwg-node/server': 0.10.18
-      ansis: 4.2.0
-      chokidar: 4.0.3
-      decache: 4.6.2
-      dettle: 1.0.5
-      dot-prop: 9.0.0
-      empathic: 2.0.0
-      env-paths: 3.0.0
-      image-size: 2.0.2
-      js-image-generator: 1.0.4
-      parse-gitignore: 2.0.0
-      semver: 7.7.4
-      tmp-promise: 3.0.3
-      uuid: 13.0.0
-      write-file-atomic: 5.0.1
-
   '@netlify/dev-utils@4.4.3':
     dependencies:
       '@whatwg-node/server': 0.10.18
@@ -11529,7 +11499,7 @@ snapshots:
   '@netlify/dev@4.16.4(rollup@4.57.1)':
     dependencies:
       '@netlify/ai': 0.4.1
-      '@netlify/blobs': 10.7.4
+      '@netlify/blobs': 10.7.4(supports-color@10.2.2)
       '@netlify/config': 24.4.4
       '@netlify/db-dev': 0.7.0
       '@netlify/dev-utils': 4.4.3
@@ -11610,7 +11580,7 @@ snapshots:
 
   '@netlify/functions-dev@1.2.4(rollup@4.57.1)':
     dependencies:
-      '@netlify/blobs': 10.7.4
+      '@netlify/blobs': 10.7.4(supports-color@10.2.2)
       '@netlify/dev-utils': 4.4.3
       '@netlify/functions': 5.1.5
       '@netlify/zip-it-and-ship-it': 14.5.1(rollup@4.57.1)(supports-color@10.2.2)
@@ -11771,17 +11741,7 @@ snapshots:
     dependencies:
       '@opentelemetry/api': 1.8.0
 
-  '@netlify/otel@5.1.3(supports-color@10.2.2)':
-    dependencies:
-      '@opentelemetry/api': 1.9.0
-      '@opentelemetry/core': 1.30.1(@opentelemetry/api@1.9.0)
-      '@opentelemetry/instrumentation': 0.203.0(@opentelemetry/api@1.9.0)(supports-color@10.2.2)
-      '@opentelemetry/resources': 1.30.1(@opentelemetry/api@1.9.0)
-      '@opentelemetry/sdk-trace-node': 1.30.1(@opentelemetry/api@1.9.0)
-    transitivePeerDependencies:
-      - supports-color
-
-  '@netlify/otel@5.1.5':
+  '@netlify/otel@5.1.5(supports-color@10.2.2)':
     dependencies:
       '@opentelemetry/api': 1.9.0
       '@opentelemetry/core': 1.30.1(@opentelemetry/api@1.9.0)
@@ -11816,7 +11776,7 @@ snapshots:
 
   '@netlify/runtime@4.1.20':
     dependencies:
-      '@netlify/blobs': 10.7.4
+      '@netlify/blobs': 10.7.4(supports-color@10.2.2)
       '@netlify/cache': 3.4.4
       '@netlify/runtime-utils': 2.3.0
       '@netlify/types': 2.6.0
@@ -12540,7 +12500,16 @@ snapshots:
   '@sanity/client@7.14.1':
     dependencies:
       '@sanity/eventsource': 5.0.2
-      get-it: 8.7.0(debug@4.4.3)
+      get-it: 8.7.0
+      nanoid: 3.3.11
+      rxjs: 7.8.2
+    transitivePeerDependencies:
+      - debug
+
+  '@sanity/client@7.17.0':
+    dependencies:
+      '@sanity/eventsource': 5.0.2
+      get-it: 8.7.0
       nanoid: 3.3.11
       rxjs: 7.8.2
     transitivePeerDependencies:
@@ -12641,7 +12610,7 @@ snapshots:
       get-it: 8.7.0(debug@4.4.3)
       json-stream-stringify: 3.1.6
       p-queue: 9.1.0
-      tar: 7.5.11
+      tar: 7.5.12
       tar-stream: 3.1.7
     transitivePeerDependencies:
       - bare-abort-controller
@@ -12671,7 +12640,7 @@ snapshots:
   '@sanity/import@5.0.1(@sanity/client@7.17.0(debug@4.4.3))(@types/react@19.2.14)':
     dependencies:
       '@sanity/asset-utils': 2.3.0
-      '@sanity/client': 7.17.0(debug@4.4.3)
+      '@sanity/client': 7.17.0
       '@sanity/generate-help-url': 4.0.0
       '@sanity/mutator': 5.17.1(@types/react@19.2.14)
       debug: 4.4.3(supports-color@10.2.2)
@@ -12805,7 +12774,7 @@ snapshots:
 
   '@sanity/preview-url-secret@4.0.3(@sanity/client@7.17.0(debug@4.4.3))':
     dependencies:
-      '@sanity/client': 7.17.0(debug@4.4.3)
+      '@sanity/client': 7.17.0
       '@sanity/uuid': 3.0.2
 
   '@sanity/runtime-cli@14.5.0(@types/node@25.2.3)(debug@4.4.3)(tsx@4.21.0)(typescript@5.9.3)(yaml@2.8.2)':
@@ -12942,7 +12911,7 @@ snapshots:
 
   '@sanity/types@5.17.1(@types/react@19.2.14)(debug@4.4.3)':
     dependencies:
-      '@sanity/client': 7.17.0(debug@4.4.3)
+      '@sanity/client': 7.17.0
       '@sanity/media-library-types': 1.2.0
       '@types/react': 19.2.14
     transitivePeerDependencies:
@@ -13033,7 +13002,7 @@ snapshots:
 
   '@sanity/visual-editing-types@1.1.8(@sanity/client@7.17.0(debug@4.4.3))(@sanity/types@5.17.1(@types/react@19.2.14)(debug@4.4.3))':
     dependencies:
-      '@sanity/client': 7.17.0(debug@4.4.3)
+      '@sanity/client': 7.17.0
     optionalDependencies:
       '@sanity/types': 5.17.1(@types/react@19.2.14)(debug@4.4.3)
 
@@ -13793,6 +13762,8 @@ snapshots:
   adm-zip@0.5.16: {}
 
   agent-base@7.1.4: {}
+
+  agent-base@8.0.0: {}
 
   ajv-errors@3.0.0(ajv@8.17.1):
     dependencies:
@@ -15945,11 +15916,22 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  get-it@8.7.0(debug@4.4.3):
+  get-it@8.7.0:
     dependencies:
       '@types/follow-redirects': 1.14.4
       decompress-response: 7.0.0
       follow-redirects: 1.15.11(debug@2.6.9)
+      is-retry-allowed: 2.2.0
+      through2: 4.0.2
+      tunnel-agent: 0.6.0
+    transitivePeerDependencies:
+      - debug
+
+  get-it@8.7.0(debug@4.4.3):
+    dependencies:
+      '@types/follow-redirects': 1.14.4
+      decompress-response: 7.0.0
+      follow-redirects: 1.15.11(debug@4.4.3)
       is-retry-allowed: 2.2.0
       through2: 4.0.2
       tunnel-agent: 0.6.0
@@ -16278,6 +16260,13 @@ snapshots:
   https-proxy-agent@7.0.6(supports-color@10.2.2):
     dependencies:
       agent-base: 7.1.4
+      debug: 4.4.3(supports-color@10.2.2)
+    transitivePeerDependencies:
+      - supports-color
+
+  https-proxy-agent@8.0.0:
+    dependencies:
+      agent-base: 8.0.0
       debug: 4.4.3(supports-color@10.2.2)
     transitivePeerDependencies:
       - supports-color
@@ -17667,7 +17656,7 @@ snapshots:
 
   negotiator@1.0.0: {}
 
-  netlify-cli@24.4.0(@swc/core@1.15.11)(@types/node@25.2.3)(picomatch@4.0.3)(rollup@4.57.1):
+  netlify-cli@24.4.1(@swc/core@1.15.11)(@types/node@25.2.3)(picomatch@4.0.3)(rollup@4.57.1):
     dependencies:
       '@fastify/static': 9.0.0
       '@netlify/ai': 0.4.1
@@ -17724,7 +17713,7 @@ snapshots:
       gitconfiglocal: 2.1.0
       http-proxy: 1.18.1(debug@4.4.3)
       http-proxy-middleware: 3.0.5
-      https-proxy-agent: 7.0.6(supports-color@10.2.2)
+      https-proxy-agent: 8.0.0
       inquirer: 8.2.7(@types/node@25.2.3)
       inquirer-autocomplete-prompt: 1.4.0(inquirer@8.2.7(@types/node@25.2.3))
       is-docker: 4.0.0
@@ -19023,7 +19012,7 @@ snapshots:
       '@sanity/asset-utils': 2.3.0
       '@sanity/bifur-client': 1.0.0
       '@sanity/cli': 6.1.7(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.0.1)(@types/node@25.2.3)(@types/react@19.2.14)(jiti@2.6.1)(styled-components@6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(typescript@5.9.3)(xstate@5.28.0)
-      '@sanity/client': 7.17.0(debug@4.4.3)
+      '@sanity/client': 7.17.0
       '@sanity/color': 3.0.6
       '@sanity/comlink': 4.0.1
       '@sanity/diff': 5.17.1
@@ -19962,7 +19951,7 @@ snapshots:
       ofetch: 1.5.1
       ufo: 1.6.3
     optionalDependencies:
-      '@netlify/blobs': 10.7.4
+      '@netlify/blobs': 10.7.4(supports-color@10.2.2)
 
   untildify@4.0.0: {}
 
