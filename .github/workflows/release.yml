@@ -13,15 +13,16 @@ jobs:
       SANITY_STUDIO_DATASET: production
     steps:
       - uses: actions/checkout@v6
-      - uses: pnpm/action-setup@v5
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version-file: .bun-version
       - name: Set up Node.js
         uses: actions/setup-node@v6
         with:
           node-version-file: .nvmrc
-          cache: pnpm
       - name: Run install
-        run: pnpm install --shamefully-hoist
+        run: bun install
       - name: Build production bundle
-        run: pnpm run build
+        run: bun run build
       - name: Deploy to production
-        run: pnpm run deploy --dir ./dist --prod --site ${{secrets.NETLIFY_SITE_ID}} --auth ${{secrets.NETLIFY_TOKEN}}
+        run: bun run deploy --dir ./dist --prod --site ${{secrets.NETLIFY_SITE_ID}} --auth ${{secrets.NETLIFY_TOKEN}}
