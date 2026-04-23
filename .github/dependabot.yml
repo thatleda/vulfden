@@ -8,7 +8,7 @@ updates:
     assignees:
       - thatleda
 
-  - package-ecosystem: bun
+  - package-ecosystem: npm
     directory: /
     rebase-strategy: auto
     schedule:
@@ -20,11 +20,3 @@ updates:
     versioning-strategy: auto
     pull-request-branch-name:
       separator: /
-    groups:
-      bun:
-        update-types:
-          - major
-          - minor
-          - patch
-        patterns:
-          - bun
