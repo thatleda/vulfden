@@ -1,3 +1,4 @@
+import { documentInternationalization } from '@sanity/document-internationalization'
 import { visionTool } from '@sanity/vision'
 import { theme } from 'https://themer.sanity.build/api/hues?preset=verdant'
 import { defineConfig } from 'sanity'
@@ -15,6 +16,13 @@ export default defineConfig({
     structureTool(),
     media(),
     visionTool(),
+    documentInternationalization({
+      supportedLanguages: [
+        { id: 'en', title: 'English' },
+        { id: 'de', title: 'Deutsch' },
+      ],
+      schemaTypes: ['resume', 'page'],
+    }),
   ],
 
   schema: {

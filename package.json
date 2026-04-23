@@ -15,6 +15,7 @@
     "deploy": "netlify deploy"
   },
   "dependencies": {
+    "@sanity/document-internationalization": "catalog:",
     "@sanity/icons": "catalog:",
     "@sanity/structure": "catalog:",
     "@sanity/ui": "catalog:",

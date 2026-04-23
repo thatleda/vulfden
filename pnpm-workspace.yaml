@@ -5,6 +5,7 @@ allowBuilds:
 
 catalog:
   '@antfu/eslint-config': 8.2.0
+  '@sanity/document-internationalization': 6.1.0
   '@eslint-react/eslint-plugin': 4.2.3
   '@sanity/icons': 3.7.4
   '@sanity/structure': 2.36.2
