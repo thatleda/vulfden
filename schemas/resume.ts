@@ -133,4 +133,13 @@ export default {
       of: [{ type: 'string' }],
     },
   ],
+  preview: {
+    select: { language: 'language' },
+    prepare({ language }: { language?: string }) {
+      return {
+        title: language === 'de' ? 'Lebenslauf (DE)' : 'Resume (EN)',
+        subtitle: language ?? 'en',
+      }
+    },
+  },
 }
