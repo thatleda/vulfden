@@ -1,11 +1,11 @@
 import type { Rule } from 'sanity'
-import { BriefcaseIcon } from '@sanity/icons'
+import { DocumentTextIcon } from '@sanity/icons'
 
 export default {
   name: 'resume',
   type: 'document',
   title: 'Resume',
-  icon: BriefcaseIcon,
+  icon: DocumentTextIcon,
   fields: [
     {
       name: 'profile',
