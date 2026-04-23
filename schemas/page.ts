@@ -29,6 +29,22 @@ export default {
         source: 'title',
         slugify: (input: string) =>
           input.toLowerCase().replaceAll(whitespaceRegex, '-').slice(0, 200),
+        isUnique: async (slug: string, context: any) => {
+          const { document, getClient } = context
+          const client = getClient({ apiVersion: '2023-01-01' })
+          const id = document._id.replace(/^drafts\./, '')
+          const query = `!defined(*[
+            !(_id in [$draft, $published]) &&
+            slug.current == $slug &&
+            language == $language
+          ][0]._id)`
+          return client.fetch<boolean>(query, {
+            draft: `drafts.${id}`,
+            published: id,
+            slug,
+            language: document.language ?? 'en',
+          })
+        },
       },
     },
     {
