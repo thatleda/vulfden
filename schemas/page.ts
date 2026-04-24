@@ -29,6 +29,7 @@ export default {
         source: 'title',
         slugify: (input: string) =>
           input.toLowerCase().replaceAll(whitespaceRegex, '-').slice(0, 200),
+        isUnique: () => true,
       },
     },
     {
