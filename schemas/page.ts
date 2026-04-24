@@ -38,5 +38,16 @@ export default {
       type: 'array',
       of: [block, image],
     },
+    {
+      title: 'Language',
+      name: 'language',
+      type: 'string',
+      options: {
+        list: [
+          { title: 'English', value: 'en' },
+          { title: 'German', value: 'de' },
+        ],
+      },
+    },
   ],
 }

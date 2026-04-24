@@ -132,6 +132,17 @@ export default {
       title: 'Additional',
       of: [{ type: 'string' }],
     },
+    {
+      name: 'Language',
+      type: 'string',
+      title: 'Language',
+      options: {
+        list: [
+          { title: 'English', value: 'en' },
+          { title: 'German', value: 'de' },
+        ],
+      },
+    },
   ],
   preview: {
     select: { language: 'language' },
