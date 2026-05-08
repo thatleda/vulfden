@@ -18,5 +18,12 @@ updates:
     allow:
       - dependency-type: direct
     versioning-strategy: auto
+    groups:
+      react:
+        patterns:
+          - react
+          - react-dom
+          - react-is
+          - '@types/react'
     pull-request-branch-name:
       separator: /
