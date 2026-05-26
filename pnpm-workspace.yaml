@@ -10,7 +10,7 @@ allowBuilds:
 
 catalog:
   '@antfu/eslint-config': 9.0.0
-  '@eslint-react/eslint-plugin': 5.8.1
+  '@eslint-react/eslint-plugin': 5.8.5
   '@sanity/document-internationalization': 6.2.0
   '@sanity/icons': 3.7.4
   '@sanity/structure': 2.36.2
