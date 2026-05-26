@@ -27,7 +27,7 @@ catalog:
   sanity: 5.25.1
   sanity-plugin-media: 4.3.0
   styled-components: 6.4.2
-  typescript: 5.9.3
+  typescript: 6.0.3
 minimumReleaseAgeExclude:
   - '@eslint-react/ast@5.8.1'
   - '@eslint-react/core@5.8.1'
