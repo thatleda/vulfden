@@ -11,7 +11,7 @@ allowBuilds:
 catalog:
   '@antfu/eslint-config': 9.0.0
   '@eslint-react/eslint-plugin': 5.8.7
-  '@sanity/document-internationalization': 6.2.1
+  '@sanity/document-internationalization': 6.2.2
   '@sanity/icons': 3.7.4
   '@sanity/structure': 2.36.2
   '@sanity/ui': 3.2.0
@@ -28,20 +28,7 @@ catalog:
   sanity-plugin-media: 4.3.0
   styled-components: 6.4.2
   typescript: 6.0.3
-minimumReleaseAgeExclude:
-  - '@eslint-react/ast@5.8.1'
-  - '@eslint-react/core@5.8.1'
-  - '@eslint-react/eslint-plugin@5.8.1'
-  - '@eslint-react/eslint@5.8.1'
-  - '@eslint-react/jsx@5.8.1'
-  - '@eslint-react/shared@5.8.1'
-  - '@eslint-react/var@5.8.1'
-  - eslint-plugin-react-dom@5.8.1
-  - eslint-plugin-react-jsx@5.8.1
-  - eslint-plugin-react-naming-convention@5.8.1
-  - eslint-plugin-react-rsc@5.8.1
-  - eslint-plugin-react-web-api@5.8.1
-  - eslint-plugin-react-x@5.8.1
+
 overrides:
   '@fastify/static': '>=9.1.1'
   brace-expansion: '>=2.0.3'
@@ -49,7 +36,7 @@ overrides:
   minimatch: '>=9.0.6'
   path-to-regexp: '>=8.4.0'
   uuid: '>=13.0.1'
-  tmp: ">=0.2.6"
+  tmp: '>=0.2.6'
 
 shellEmulator: true
 trustPolicy: no-downgrade
