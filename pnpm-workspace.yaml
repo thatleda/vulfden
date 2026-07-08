@@ -12,7 +12,7 @@ catalog:
   '@antfu/eslint-config': 9.1.0
   '@eslint-react/eslint-plugin': 5.10.0
   '@sanity/document-internationalization': 6.2.9
-  '@sanity/icons': 3.7.4
+  '@sanity/icons': 4.0.0
   '@sanity/structure': 2.36.2
   '@sanity/ui': 3.2.0
   '@sanity/vision': 6.3.0
