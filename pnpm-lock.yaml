@@ -16,8 +16,8 @@ catalogs:
       specifier: 6.2.9
       version: 6.2.9
     '@sanity/icons':
-      specifier: 3.7.4
-      version: 3.7.4
+      specifier: 4.0.0
+      version: 4.0.0
     '@sanity/structure':
       specifier: 2.36.2
       version: 2.36.2
@@ -82,7 +82,7 @@ importers:
         version: 6.2.9(@emotion/is-prop-valid@1.4.0)(@types/react@19.2.16)(react-dom@19.2.7(react@19.2.7))(react-is@19.2.7)(react@19.2.7)(sanity-plugin-internationalized-array@5.1.1(74e126f8493a84db60201276a8338a90))(sanity@6.3.0(@babel/core@7.29.7)(@babel/runtime@7.29.2)(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.2.0)(@oclif/core@4.11.11)(@rolldown/plugin-babel@0.2.3(@babel/core@7.29.7)(@babel/runtime@7.29.2)(rolldown@1.1.3)(vite@8.1.0(@types/node@25.8.0)(esbuild@0.28.0)(jiti@2.7.0)(tsx@4.22.4)(yaml@2.9.0)))(@sanity/cli-core@2.1.2(@noble/hashes@2.2.0)(@types/node@25.8.0)(esbuild@0.28.0)(yaml@2.9.0))(@types/node@25.8.0)(@types/react@19.2.16)(esbuild@0.28.0)(immer@11.1.8)(jiti@2.7.0)(node-fetch@3.3.2)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(rolldown@1.1.3)(styled-components@6.4.3(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(typescript@6.0.3))(styled-components@6.4.3(react-dom@19.2.7(react@19.2.7))(react@19.2.7))
       '@sanity/icons':
         specifier: 'catalog:'
-        version: 3.7.4(react@19.2.7)
+        version: 4.0.0(react@19.2.7)
       '@sanity/structure':
         specifier: 'catalog:'
         version: 2.36.2(react@19.2.7)
@@ -2894,6 +2894,12 @@ packages:
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: ^18.3 || ^19.0.0-0
+
+  '@sanity/icons@4.0.0':
+    resolution: {integrity: sha512-Sn2CDJwFRjacpna45EXgsHl6dXbNTq9TnmZ7ie/ABNoZfk6SFs+EraKhZTDmuXCuXZOWOIVojvDyg0sVzzmF9g==}
+    engines: {node: '>=22.12'}
+    peerDependencies:
+      react: ^19
 
   '@sanity/id-utils@1.0.0':
     resolution: {integrity: sha512-2sb7tbdMDuUuVyocJPKG0gZBiOML/ovCe+mJiLrv1j69ODOfa2LfUjDVR+dRw/A/+XuxoJSSP8ebG7NiwTOgIA==}
@@ -12741,6 +12747,10 @@ snapshots:
       react: 19.2.7
 
   '@sanity/icons@3.7.4(react@19.2.7)':
+    dependencies:
+      react: 19.2.7
+
+  '@sanity/icons@4.0.0(react@19.2.7)':
     dependencies:
       react: 19.2.7
 
