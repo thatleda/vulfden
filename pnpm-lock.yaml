@@ -13,8 +13,8 @@ catalogs:
       specifier: 5.10.2
       version: 5.10.2
     '@sanity/document-internationalization':
-      specifier: 6.2.14
-      version: 6.2.14
+      specifier: 6.2.15
+      version: 6.2.15
     '@sanity/icons':
       specifier: 5.0.0
       version: 5.0.0
@@ -79,7 +79,7 @@ importers:
     dependencies:
       '@sanity/document-internationalization':
         specifier: 'catalog:'
-        version: 6.2.14(@emotion/is-prop-valid@1.4.0)(@types/react@19.2.16)(react-dom@19.2.7(react@19.2.7))(react-is@19.2.7)(react@19.2.7)(sanity-plugin-internationalized-array@5.1.1(74e126f8493a84db60201276a8338a90))(sanity@6.3.0(@babel/core@7.29.7)(@babel/runtime@7.29.2)(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.2.0)(@oclif/core@4.11.11)(@rolldown/plugin-babel@0.2.3(@babel/core@7.29.7)(@babel/runtime@7.29.2)(rolldown@1.1.3)(vite@8.1.0(@types/node@25.8.0)(esbuild@0.28.0)(jiti@2.7.0)(tsx@4.22.4)(yaml@2.9.0)))(@sanity/cli-core@2.1.2(@noble/hashes@2.2.0)(@types/node@25.8.0)(esbuild@0.28.0)(yaml@2.9.0))(@types/node@25.8.0)(@types/react@19.2.16)(esbuild@0.28.0)(immer@11.1.8)(jiti@2.7.0)(node-fetch@3.3.2)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(rolldown@1.1.3)(styled-components@6.4.3(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(typescript@6.0.3))(styled-components@6.4.3(react-dom@19.2.7(react@19.2.7))(react@19.2.7))
+        version: 6.2.15(@emotion/is-prop-valid@1.4.0)(@types/react@19.2.16)(react-dom@19.2.7(react@19.2.7))(react-is@19.2.7)(react@19.2.7)(sanity-plugin-internationalized-array@5.1.1(74e126f8493a84db60201276a8338a90))(sanity@6.3.0(@babel/core@7.29.7)(@babel/runtime@7.29.2)(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.2.0)(@oclif/core@4.11.11)(@rolldown/plugin-babel@0.2.3(@babel/core@7.29.7)(@babel/runtime@7.29.2)(rolldown@1.1.3)(vite@8.1.0(@types/node@25.8.0)(esbuild@0.28.0)(jiti@2.7.0)(tsx@4.22.4)(yaml@2.9.0)))(@sanity/cli-core@2.1.2(@noble/hashes@2.2.0)(@types/node@25.8.0)(esbuild@0.28.0)(yaml@2.9.0))(@types/node@25.8.0)(@types/react@19.2.16)(esbuild@0.28.0)(immer@11.1.8)(jiti@2.7.0)(node-fetch@3.3.2)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(rolldown@1.1.3)(styled-components@6.4.3(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(typescript@6.0.3))(styled-components@6.4.3(react-dom@19.2.7(react@19.2.7))(react@19.2.7))
       '@sanity/icons':
         specifier: 'catalog:'
         version: 5.0.0(react@19.2.7)
@@ -2857,14 +2857,14 @@ packages:
     resolution: {integrity: sha512-PJ3MYRY0bOtyZGA2otlvdqFWIYKQF+jJ6EYgFAmxRhTyIMN4wnL7w7wbZsQVmqdKsbks8ZcaU/CJfBH9LQpjDA==}
     engines: {node: '>=22.12'}
 
-  '@sanity/document-internationalization@6.2.14':
-    resolution: {integrity: sha512-pgfA4L5sgd49SUyt24qL8h0WfR+Z0bRWye68xSLCz3r7fDKBRrdYrDjqckB6Klx1ZSef7Sh4hGPz7nPtFW4tig==}
+  '@sanity/document-internationalization@6.2.15':
+    resolution: {integrity: sha512-FN/RXFVjick5T5Em/2tZp/uTTzY3gp9bL4fh79uXzrEFyZaR62p0OTaF0NB9uKpDX1udMcfZnMwyKHlsWC7P/A==}
     engines: {node: '>=20.19 <22 || >=22.12'}
     peerDependencies:
       react: ^19.2
       react-dom: ^19.2
       sanity: ^5 || ^6.0.0-0
-      sanity-plugin-internationalized-array: ^5.1.14
+      sanity-plugin-internationalized-array: ^5.1.15
 
   '@sanity/eventsource@4.1.1':
     resolution: {integrity: sha512-4RpexVqD+hbIXDgFLgWq/vSJWHNEBbc9eGa96ear/3ADFhMQx+QG4Q7r3QmQkB2t7LfUrrJfMQn9sMwaBTlurg==}
@@ -12641,7 +12641,7 @@ snapshots:
     dependencies:
       '@sanity/diff-match-patch': 3.2.0
 
-  '@sanity/document-internationalization@6.2.14(@emotion/is-prop-valid@1.4.0)(@types/react@19.2.16)(react-dom@19.2.7(react@19.2.7))(react-is@19.2.7)(react@19.2.7)(sanity-plugin-internationalized-array@5.1.1(74e126f8493a84db60201276a8338a90))(sanity@6.3.0(@babel/core@7.29.7)(@babel/runtime@7.29.2)(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.2.0)(@oclif/core@4.11.11)(@rolldown/plugin-babel@0.2.3(@babel/core@7.29.7)(@babel/runtime@7.29.2)(rolldown@1.1.3)(vite@8.1.0(@types/node@25.8.0)(esbuild@0.28.0)(jiti@2.7.0)(tsx@4.22.4)(yaml@2.9.0)))(@sanity/cli-core@2.1.2(@noble/hashes@2.2.0)(@types/node@25.8.0)(esbuild@0.28.0)(yaml@2.9.0))(@types/node@25.8.0)(@types/react@19.2.16)(esbuild@0.28.0)(immer@11.1.8)(jiti@2.7.0)(node-fetch@3.3.2)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(rolldown@1.1.3)(styled-components@6.4.3(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(typescript@6.0.3))(styled-components@6.4.3(react-dom@19.2.7(react@19.2.7))(react@19.2.7))':
+  '@sanity/document-internationalization@6.2.15(@emotion/is-prop-valid@1.4.0)(@types/react@19.2.16)(react-dom@19.2.7(react@19.2.7))(react-is@19.2.7)(react@19.2.7)(sanity-plugin-internationalized-array@5.1.1(74e126f8493a84db60201276a8338a90))(sanity@6.3.0(@babel/core@7.29.7)(@babel/runtime@7.29.2)(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.2.0)(@oclif/core@4.11.11)(@rolldown/plugin-babel@0.2.3(@babel/core@7.29.7)(@babel/runtime@7.29.2)(rolldown@1.1.3)(vite@8.1.0(@types/node@25.8.0)(esbuild@0.28.0)(jiti@2.7.0)(tsx@4.22.4)(yaml@2.9.0)))(@sanity/cli-core@2.1.2(@noble/hashes@2.2.0)(@types/node@25.8.0)(esbuild@0.28.0)(yaml@2.9.0))(@types/node@25.8.0)(@types/react@19.2.16)(esbuild@0.28.0)(immer@11.1.8)(jiti@2.7.0)(node-fetch@3.3.2)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(rolldown@1.1.3)(styled-components@6.4.3(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(typescript@6.0.3))(styled-components@6.4.3(react-dom@19.2.7(react@19.2.7))(react@19.2.7))':
     dependencies:
       '@sanity/icons': 5.0.0(react@19.2.7)
       '@sanity/mutator': 6.3.0(@types/react@19.2.16)
