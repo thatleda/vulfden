@@ -1,5 +1,5 @@
 import type { Rule } from 'sanity'
-import { DocumentTextIcon } from '@sanity/icons'
+import { ComposeIcon } from '@sanity/icons/Compose'
 import block from './block'
 import image from './image'
 
@@ -8,7 +8,7 @@ export default {
   name: 'article',
   type: 'document',
   title: 'Articles',
-  icon: DocumentTextIcon,
+  icon: ComposeIcon,
   fields: [
     {
       name: 'banner',
