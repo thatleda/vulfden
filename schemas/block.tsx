@@ -20,7 +20,6 @@ const QuoteComponent = styled.q`
 
 export default {
   type: 'block',
-  // Only allow these block styles
   styles: [
     { title: 'Normal', value: 'normal' },
     { title: 'Heading 1', value: 'h1' },
