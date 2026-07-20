@@ -29,6 +29,17 @@ catalog:
   styled-components: 6.4.3
   typescript: 6.0.3
 
+minimumReleaseAgeExclude:
+  - smol-toml@1.6.1
+  - esbuild@0.28.1
+  - tar@7.5.16
+  - dompurify@3.4.6 || 3.4.7 || 3.4.8 || 3.4.9 || 3.4.11
+  - '@opentelemetry/core@2.8.0'
+  - http-proxy-middleware@3.0.6 || 3.0.7
+  - js-yaml@4.1.2
+  - json-2-csv@5.5.11
+  - adm-zip@0.6.0
+
 overrides:
   '@fastify/static': '>=9.1.1'
   brace-expansion: '>=2.0.3'
@@ -37,6 +48,8 @@ overrides:
   path-to-regexp: '>=8.4.0'
   uuid: '>=13.0.1'
   tmp: '>=0.2.6'
+  form-data: '>=4.0.6'
+  undici: '>=6.27.0'
 
 shellEmulator: true
 trustPolicy: no-downgrade
