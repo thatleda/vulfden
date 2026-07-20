@@ -16,8 +16,8 @@ catalogs:
       specifier: 6.2.17
       version: 6.2.17
     '@sanity/icons':
-      specifier: 5.0.0
-      version: 5.0.0
+      specifier: 5.1.0
+      version: 5.1.0
     '@sanity/structure':
       specifier: 2.36.2
       version: 2.36.2
@@ -88,7 +88,7 @@ importers:
         version: 6.2.17(d185af0ee36d3c8dab033b015c4edfc4)
       '@sanity/icons':
         specifier: 'catalog:'
-        version: 5.0.0(react@19.2.7)
+        version: 5.1.0(react@19.2.7)
       '@sanity/structure':
         specifier: 'catalog:'
         version: 2.36.2(react@19.2.7)(supports-color@8.1.1)
@@ -2858,12 +2858,6 @@ packages:
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: ^18.3 || ^19.0.0-0
-
-  '@sanity/icons@5.0.0':
-    resolution: {integrity: sha512-fINQLovVnCANwQbQ63iO2mUVh2ZX3T4h3hiSEaIStvladI5tmrGAuT+XbUuk3jTmBwOHDGD0EL9lpsghGAS+Sg==}
-    engines: {node: '>=22.12'}
-    peerDependencies:
-      react: ^19
 
   '@sanity/icons@5.1.0':
     resolution: {integrity: sha512-BPvLFBWnxpXCn9XKb5OgBzNNRZJI29TXRpuSXx1/nKJ8FaYuitFmKSAD0L8jC0kF/BKKUMThaY3TYJ0UuubbTQ==}
@@ -12477,10 +12471,6 @@ snapshots:
       react: 19.2.7
 
   '@sanity/icons@3.8.0(react@19.2.7)':
-    dependencies:
-      react: 19.2.7
-
-  '@sanity/icons@5.0.0(react@19.2.7)':
     dependencies:
       react: 19.2.7
 
