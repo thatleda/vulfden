@@ -24,7 +24,7 @@ catalog:
   react: 19.2.7
   react-dom: 19.2.7
   react-is: 19.2.7
-  sanity: 6.4.0
+  sanity: 6.5.0
   sanity-plugin-media: 6.0.0
   styled-components: 6.4.3
   typescript: 6.0.3
