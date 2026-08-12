@@ -40,8 +40,8 @@ catalogs:
       specifier: ^0.5.3
       version: 0.5.3
     netlify-cli:
-      specifier: 27.0.3
-      version: 27.0.3
+      specifier: 27.1.0
+      version: 27.1.0
     react:
       specifier: 19.2.8
       version: 19.2.8
@@ -108,7 +108,7 @@ importers:
         version: 6.9.0(@babel/runtime@7.29.2)(@codemirror/lint@6.9.6)(@codemirror/theme-one-dark@6.1.3)(@emotion/is-prop-valid@1.4.0)(codemirror@6.0.2)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(sanity@6.8.0(@babel/core@7.29.7(supports-color@8.1.1))(@babel/runtime@7.29.2)(@emotion/is-prop-valid@1.4.0)(@noble/hashes@2.2.0)(@rolldown/plugin-babel@0.2.3(@babel/core@7.29.7(supports-color@8.1.1))(@babel/runtime@7.29.2)(rolldown@1.1.5)(vite@8.1.5(@types/node@25.8.0)(esbuild@0.28.1)(jiti@2.7.0)(tsx@4.23.1)(yaml@2.9.0)))(@sanity/sdk@2.18.0(@types/react@19.2.17)(immer@11.1.8)(react@19.2.8)(supports-color@8.1.1)(use-sync-external-store@1.6.0(react@19.2.8))(xstate@5.32.5))(@types/node@25.8.0)(@types/react@19.2.17)(esbuild@0.28.1)(jiti@2.7.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(rolldown@1.1.5)(styled-components@6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(supports-color@8.1.1)(typescript@6.0.3))(styled-components@6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8))
       netlify-cli:
         specifier: 'catalog:'
-        version: 27.0.3(@types/node@25.8.0)(picomatch@4.0.5)(supports-color@8.1.1)
+        version: 27.1.0(@types/node@25.8.0)(picomatch@4.0.5)(supports-color@8.1.1)
       react:
         specifier: 'catalog:'
         version: 19.2.8
@@ -6825,8 +6825,8 @@ packages:
     resolution: {integrity: sha512-8Ofs/AUQh8MaEcrlq5xOX0CQ9ypTF5dl78mjlMNfOK08fzpgTHQRQPBxcPlEtIw0yRpws+Zo/3r+5WRby7u3Gg==}
     engines: {node: '>= 0.6'}
 
-  netlify-cli@27.0.3:
-    resolution: {integrity: sha512-DcDBavUSy22vsXyHqOwC02ovLve+oDKw9A6373EUupZULxJQdwz1POty75fg6KEFjrdHif0JlMkLRGrgidim+Q==}
+  netlify-cli@27.1.0:
+    resolution: {integrity: sha512-o2iu7u0GKLI7FeAIPajKIHbv+Ve0ZVUfbGlt67VEV7DuphrVl9Tu7sZ1VwZwHWi6tgbV/7tWpxaZC+tmGTgGCg==}
     engines: {node: '>=22.13.0'}
     hasBin: true
 
@@ -17308,7 +17308,7 @@ snapshots:
 
   negotiator@1.0.0: {}
 
-  netlify-cli@27.0.3(@types/node@25.8.0)(picomatch@4.0.5)(supports-color@8.1.1):
+  netlify-cli@27.1.0(@types/node@25.8.0)(picomatch@4.0.5)(supports-color@8.1.1):
     dependencies:
       '@fastify/static': 10.1.2
       '@netlify/ai': 0.4.4
