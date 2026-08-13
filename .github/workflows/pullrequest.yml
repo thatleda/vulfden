@@ -5,6 +5,7 @@ on: pull_request
 jobs:
   preview:
     permissions:
+      contents: write
       pull-requests: write
     runs-on: ubuntu-latest
     env:
@@ -12,6 +13,8 @@ jobs:
       SANITY_STUDIO_DATASET: production
     steps:
       - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
       - uses: pnpm/action-setup@v6.0.10
         with:
           cache: true
@@ -21,8 +24,23 @@ jobs:
           node-version: lts/*
           cache: pnpm
           cache-dependency-path: pnpm-lock.yaml
-      - name: Run install
-        run: pnpm install
+      - name: Install dependencies
+        run: |
+          if [ "${{ github.actor }}" = "dependabot[bot]" ]; then
+            pnpm install --no-frozen-lockfile
+          else
+            pnpm install --frozen-lockfile
+          fi
+      - name: Commit lockfile fix (Dependabot only)
+        if: github.actor == 'dependabot[bot]'
+        run: |
+          if ! git diff --quiet -- pnpm-lock.yaml; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add pnpm-lock.yaml
+            git commit -m "chore: regenerate lockfile for pnpm catalog compatibility"
+            git push origin HEAD:${{ github.event.pull_request.head.ref }}
+          fi
       - name: Build production bundle
         run: pnpm run build
       - name: Lint files
