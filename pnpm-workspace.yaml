@@ -14,7 +14,7 @@ catalog:
   '@sanity/document-internationalization': 6.2.28
   '@sanity/icons': 5.2.1
   '@sanity/structure': 2.36.2
-  '@sanity/ui': 3.5.1
+  '@sanity/ui': 3.5.2
   '@sanity/vision': 6.9.1
   '@types/react': 19.2.18
   '@types/styled-components': 5.1.36
