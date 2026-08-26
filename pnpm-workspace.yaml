@@ -26,7 +26,7 @@ catalog:
   react-is: 19.2.8
   sanity: 6.9.2
   sanity-plugin-media: 6.1.4
-  styled-components: 6.5.2
+  styled-components: 6.5.3
   typescript: 6.0.3
 
 minimumReleaseAgeExclude:
