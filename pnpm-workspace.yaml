@@ -15,7 +15,7 @@ catalog:
   '@sanity/icons': 5.2.1
   '@sanity/structure': 2.36.2
   '@sanity/ui': 4.0.6
-  '@sanity/vision': 6.10.1
+  '@sanity/vision': 6.11.0
   '@types/react': 19.2.18
   '@types/styled-components': 5.1.36
   eslint: 10.9.1
