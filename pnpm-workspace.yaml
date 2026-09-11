@@ -11,7 +11,7 @@ allowBuilds:
 catalog:
   '@antfu/eslint-config': 9.3.0
   '@eslint-react/eslint-plugin': 5.18.7
-  '@sanity/document-internationalization': 6.2.34
+  '@sanity/document-internationalization': 6.2.35
   '@sanity/icons': 5.2.1
   '@sanity/structure': 2.36.2
   '@sanity/ui': 4.0.7
@@ -25,7 +25,7 @@ catalog:
   react-dom: 19.2.8
   react-is: 19.2.8
   sanity: 6.12.0
-  sanity-plugin-media: 6.1.7
+  sanity-plugin-media: 6.1.8
   styled-components: 6.5.3
   typescript: 6.0.3
 
