@@ -198,8 +198,8 @@ catalogs:
       specifier: ^0.5.7
       version: 0.5.7
     netlify-cli:
-      specifier: 27.8.1
-      version: 27.8.1
+      specifier: 27.10.0
+      version: 27.10.0
     react:
       specifier: 19.3.0
       version: 19.3.0
@@ -266,7 +266,7 @@ importers:
         version: 6.16.0(@babel/runtime@7.29.7)(@codemirror/lint@6.9.6)(@codemirror/theme-one-dark@6.1.3)(codemirror@6.0.2)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(sanity@6.12.0(@babel/core@7.29.7(supports-color@8.1.1))(@babel/runtime@7.29.7)(@noble/hashes@2.2.0)(@rolldown/plugin-babel@0.2.3(@babel/core@7.29.7(supports-color@8.1.1))(@babel/runtime@7.29.7)(rolldown@1.2.6)(vite@8.2.1(@types/node@26.6.2)(esbuild@0.28.1)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0)))(@sanity/sdk@3.0.0(@types/react@19.3.0)(immer@11.1.8)(react@19.3.0)(use-sync-external-store@1.6.0(react@19.3.0))(xstate@5.32.6))(@types/node@26.6.2)(@types/react@19.3.0)(esbuild@0.28.1)(immer@11.1.8)(jiti@2.7.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(rolldown@1.2.6)(styled-components@6.5.3(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(supports-color@8.1.1)(typescript@6.0.3))(styled-components@6.5.3(react-dom@19.3.0(react@19.3.0))(react@19.3.0))
       netlify-cli:
         specifier: 'catalog:'
-        version: 27.8.1(@types/node@26.6.2)(picomatch@4.0.5)(supports-color@8.1.1)
+        version: 27.10.0(@types/node@26.6.2)(picomatch@4.0.5)(supports-color@8.1.1)
       react:
         specifier: 'catalog:'
         version: 19.3.0
@@ -2337,8 +2337,8 @@ packages:
     engines: {node: '>=22.12.0'}
     hasBin: true
 
-  '@netlify/build@37.0.0':
-    resolution: {integrity: sha512-ataRxicUJmG/7+5xQnlOcVU/e+PUrsovzRQ616aJBPJRLpTSyh42Rx/5/5GgW6+eA5Dj3YH/hH6NR+rfI/DUbg==}
+  '@netlify/build@37.3.0':
+    resolution: {integrity: sha512-icEdN6bQbTp6ssTodH1BFzE6YnC9ydwdIR60lTLzszqu3LR0uKi5k9PrawwUEVBEe2vmZznRkBHW09X1un1BIg==}
     engines: {node: '>=22.12.0'}
     hasBin: true
     peerDependencies:
@@ -2377,6 +2377,10 @@ packages:
     resolution: {integrity: sha512-J7joSRuOIwg7bSMQBc+zq7Lb3p6gwsLMU/NYSFbXNIZtk6gSQnY3ZwnAncEhRqvN8lKsKx+27bn+4B2+B0N8ag==}
     engines: {node: '>=22.12.0'}
 
+  '@netlify/edge-bundler@16.1.0':
+    resolution: {integrity: sha512-NotlThmEr/syqvfde5f92E3nNpx6wEV/Vyf6yqRAsQkVVMyLmafJF1AM2us+2xdMjrnGgRL56awXq9g4VeNKwA==}
+    engines: {node: '>=22.12.0'}
+
   '@netlify/edge-functions-bootstrap@2.16.0':
     resolution: {integrity: sha512-v8QQihSbBHj3JxtJsHoepXALpNumD9M7egHoc8z62FYl5it34dWczkaJoFFopEyhiBVKi4K/n0ZYpdzwfujd6g==}
 
@@ -2395,8 +2399,8 @@ packages:
     resolution: {integrity: sha512-WPeI32j+NtwxnORtmR+tO3RezW36L8yp2AV76sZw53mnTwl8P4ZkdOXjknaVaC8N8L8Vqof+gmUhw/o9cwYsOg==}
     engines: {node: '>=22.12.0'}
 
-  '@netlify/functions-utils@7.1.10':
-    resolution: {integrity: sha512-VAXJBdWW9YuvWLQaZT6vGytLNMFUTsRFo3RONIYTeYSabKUmPMU4B06nBehUwAdGkHdmIqWlFOGwS+4VZ/2UXA==}
+  '@netlify/functions-utils@7.1.12':
+    resolution: {integrity: sha512-YlbrCagTl/5kW5b9DBoep9uifpR48IgQ7el7zSL9nZ/6PFkvDoai6Qoup/V9qRCQS3pZhSYfX+ZNpcIX6yGKTw==}
     engines: {node: '>=22.12.0'}
 
   '@netlify/functions@6.0.0':
@@ -2559,6 +2563,11 @@ packages:
 
   '@netlify/zip-it-and-ship-it@16.0.0':
     resolution: {integrity: sha512-dYzg45lkpCbDif4dECAbwJBtSsUfv28d3t0E/mtjj/ATjBlCLiR0C6CLovfAEZsXyKAFMcBpX+1snhud9fKsRA==}
+    engines: {node: '>=22.12.0'}
+    hasBin: true
+
+  '@netlify/zip-it-and-ship-it@16.2.0':
+    resolution: {integrity: sha512-ohXJ+Orysp3fMDWRfZjjT+loWvt3pzrruGra9MyGdqyEJycwbLSzrBQup3LKWz94e+9UNuy6EbHBuuqbQ8lnPg==}
     engines: {node: '>=22.12.0'}
     hasBin: true
 
@@ -7329,8 +7338,8 @@ packages:
     resolution: {integrity: sha512-8Ofs/AUQh8MaEcrlq5xOX0CQ9ypTF5dl78mjlMNfOK08fzpgTHQRQPBxcPlEtIw0yRpws+Zo/3r+5WRby7u3Gg==}
     engines: {node: '>= 0.6'}
 
-  netlify-cli@27.8.1:
-    resolution: {integrity: sha512-M4rXqQHm+bviM+vu9K8Q6aPqzLvtF7lp0xfgisW2QeLDAkkqj3aDF/1oVxfvISI3pEVSf493GYNiF1QNACTdjQ==}
+  netlify-cli@27.10.0:
+    resolution: {integrity: sha512-ATUh2r2/lCQ+vO8MWTQqfan9d7ZQEE26tAGhBR67PmUDSe9KX9D8eZlD64VjwSmQXlKamUPNyo0Uf4ljASyYbA==}
     engines: {node: '>=22.13.0'}
     hasBin: true
 
@@ -10729,8 +10738,8 @@ snapshots:
   '@codemirror/theme-one-dark@6.1.3':
     dependencies:
       '@codemirror/language': 6.12.4
-      '@codemirror/state': 6.7.4
-      '@codemirror/view': 6.43.11
+      '@codemirror/state': 6.7.6
+      '@codemirror/view': 6.43.13
       '@lezer/highlight': 1.2.3
 
   '@codemirror/view@6.43.11':
@@ -11975,19 +11984,19 @@ snapshots:
       yaml: 2.9.0
       yargs: 17.7.2
 
-  '@netlify/build@37.0.0(@opentelemetry/api@1.9.1)(@types/node@26.6.2)(picomatch@4.0.5)':
+  '@netlify/build@37.3.0(@opentelemetry/api@1.9.1)(@types/node@26.6.2)(picomatch@4.0.5)':
     dependencies:
       '@bugsnag/js': 8.9.0
       '@netlify/blobs': 11.1.0(supports-color@11.0.0)
       '@netlify/cache-utils': 7.1.2
       '@netlify/config': 25.2.5
-      '@netlify/edge-bundler': 16.0.4
-      '@netlify/functions-utils': 7.1.10(supports-color@11.0.0)
+      '@netlify/edge-bundler': 16.1.0
+      '@netlify/functions-utils': 7.1.12(supports-color@11.0.0)
       '@netlify/git-utils': 7.1.1
       '@netlify/opentelemetry-utils': 4.0.0(@opentelemetry/api@1.9.1)
       '@netlify/plugins-list': 6.81.6
       '@netlify/run-utils': 7.1.0
-      '@netlify/zip-it-and-ship-it': 16.0.0(supports-color@11.0.0)
+      '@netlify/zip-it-and-ship-it': 16.2.0(supports-color@11.0.0)
       '@opentelemetry/api': 1.9.1
       '@sindresorhus/slugify': 2.2.1
       ansis: 4.3.1
@@ -12150,6 +12159,26 @@ snapshots:
       tmp-promise: 3.0.3
       urlpattern-polyfill: 8.0.2
 
+  '@netlify/edge-bundler@16.1.0':
+    dependencies:
+      '@import-maps/resolve': 2.0.0
+      '@sveltejs/acorn-typescript': 1.0.13(acorn@8.16.0)
+      acorn: 8.16.0
+      ajv: 8.20.0
+      ajv-errors: 3.0.0(ajv@8.20.0)
+      better-ajv-errors: 1.2.0(ajv@8.20.0)
+      common-path-prefix: 3.0.0
+      esbuild: 0.28.1
+      execa: 8.0.1
+      find-up: 7.0.0
+      node-stream-zip: 1.15.0
+      p-retry: 6.2.1
+      parse-imports: 2.2.1
+      semver: 7.8.5
+      tar: 7.5.22
+      tmp-promise: 3.0.3
+      urlpattern-polyfill: 8.0.2
+
   '@netlify/edge-functions-bootstrap@2.16.0': {}
 
   '@netlify/edge-functions-bootstrap@3.2.0': {}
@@ -12190,9 +12219,9 @@ snapshots:
       - rollup
       - supports-color
 
-  '@netlify/functions-utils@7.1.10(supports-color@11.0.0)':
+  '@netlify/functions-utils@7.1.12(supports-color@11.0.0)':
     dependencies:
-      '@netlify/zip-it-and-ship-it': 16.0.0(supports-color@11.0.0)
+      '@netlify/zip-it-and-ship-it': 16.2.0(supports-color@11.0.0)
       junk: 4.0.1
     transitivePeerDependencies:
       - bare-abort-controller
@@ -12376,7 +12405,50 @@ snapshots:
 
   '@netlify/types@3.0.0': {}
 
-  '@netlify/zip-it-and-ship-it@16.0.0(supports-color@11.0.0)':
+  '@netlify/zip-it-and-ship-it@16.0.0(supports-color@8.1.1)':
+    dependencies:
+      '@babel/parser': 7.29.7
+      '@babel/types': 7.29.7
+      '@netlify/binary-info': 1.0.0
+      '@netlify/serverless-functions-api': 2.18.0
+      '@opentelemetry/api': 1.9.1
+      '@vercel/nft': 1.3.1(supports-color@8.1.1)
+      archiver: 8.0.0
+      common-path-prefix: 3.0.0
+      copy-file: 11.1.0
+      es-module-lexer: 1.7.0
+      esbuild: 0.28.1
+      execa: 8.0.1
+      fast-glob: 3.3.3
+      filter-obj: 6.1.0
+      find-up: 7.0.0
+      is-path-inside: 4.0.0
+      junk: 4.0.1
+      locate-path: 7.2.0
+      merge-options: 3.0.4
+      minimatch: 10.2.5
+      normalize-path: 3.0.0
+      p-map: 7.0.4
+      path-exists: 5.0.0
+      precinct: 12.3.2(supports-color@8.1.1)
+      require-package-name: 2.0.1
+      resolve: 2.0.0-next.7
+      semver: 7.8.5
+      tmp-promise: 3.0.3
+      toml: 4.3.0
+      unixify: 1.0.0
+      urlpattern-polyfill: 8.0.2
+      yargs: 17.7.2
+      zod: 4.5.4
+    transitivePeerDependencies:
+      - bare-abort-controller
+      - bare-buffer
+      - encoding
+      - react-native-b4a
+      - rollup
+      - supports-color
+
+  '@netlify/zip-it-and-ship-it@16.2.0(supports-color@11.0.0)':
     dependencies:
       '@babel/parser': 7.29.7
       '@babel/types': 7.29.7
@@ -12419,7 +12491,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@netlify/zip-it-and-ship-it@16.0.0(supports-color@8.1.1)':
+  '@netlify/zip-it-and-ship-it@16.2.0(supports-color@8.1.1)':
     dependencies:
       '@babel/parser': 7.29.7
       '@babel/types': 7.29.7
@@ -15251,12 +15323,12 @@ snapshots:
   codemirror@6.0.2:
     dependencies:
       '@codemirror/autocomplete': 6.20.3
-      '@codemirror/commands': 6.11.0
+      '@codemirror/commands': 6.11.1
       '@codemirror/language': 6.12.4
       '@codemirror/lint': 6.9.6
       '@codemirror/search': 6.7.2
-      '@codemirror/state': 6.7.4
-      '@codemirror/view': 6.43.11
+      '@codemirror/state': 6.7.6
+      '@codemirror/view': 6.43.13
 
   color-convert@2.0.1:
     dependencies:
@@ -18404,18 +18476,18 @@ snapshots:
 
   negotiator@1.0.0: {}
 
-  netlify-cli@27.8.1(@types/node@26.6.2)(picomatch@4.0.5)(supports-color@8.1.1):
+  netlify-cli@27.10.0(@types/node@26.6.2)(picomatch@4.0.5)(supports-color@8.1.1):
     dependencies:
       '@fastify/static': 10.1.2
       '@netlify/ai': 1.0.1
       '@netlify/api': 15.1.2
       '@netlify/blobs': 11.1.0(supports-color@8.1.1)
-      '@netlify/build': 37.0.0(@opentelemetry/api@1.9.1)(@types/node@26.6.2)(picomatch@4.0.5)
+      '@netlify/build': 37.3.0(@opentelemetry/api@1.9.1)(@types/node@26.6.2)(picomatch@4.0.5)
       '@netlify/build-info': 11.3.0
       '@netlify/config': 25.2.5
       '@netlify/dev': 5.1.2(@types/node@26.6.2)(supports-color@8.1.1)
       '@netlify/dev-utils': 6.0.1
-      '@netlify/edge-bundler': 16.0.4
+      '@netlify/edge-bundler': 16.1.0
       '@netlify/edge-functions': 4.0.0
       '@netlify/edge-functions-bootstrap': 3.2.0
       '@netlify/headers-parser': 10.1.1
@@ -18423,7 +18495,7 @@ snapshots:
       '@netlify/local-functions-proxy': 2.0.3
       '@netlify/redirect-parser': 16.1.1
       '@netlify/server-dev': 0.1.1
-      '@netlify/zip-it-and-ship-it': 16.0.0(supports-color@8.1.1)
+      '@netlify/zip-it-and-ship-it': 16.2.0(supports-color@8.1.1)
       '@octokit/rest': 22.0.1
       '@opentelemetry/api': 1.9.1
       '@pnpm/tabtab': 0.5.4(supports-color@8.1.1)
