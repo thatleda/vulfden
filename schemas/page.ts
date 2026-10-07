@@ -39,6 +39,38 @@ export default {
       of: [block, image],
     },
     {
+      title: 'Story Beats',
+      name: 'beats',
+      type: 'array',
+      description:
+        'Used on the "adventure" page only: each beat is one screen of the choose-your-own-adventure bio, revealed one at a time via "What happened next?"',
+      of: [
+        {
+          type: 'object',
+          name: 'beat',
+          title: 'Beat',
+          fields: [
+            {
+              title: 'Content',
+              name: 'content',
+              type: 'array',
+              of: [block],
+              validation: (Rule: Rule) => Rule.required(),
+            },
+          ],
+          preview: {
+            select: { content: 'content' },
+            prepare({ content }: { content?: { children?: { text?: string }[] }[] }) {
+              const text = content?.[0]?.children?.map(c => c.text).join('') ?? ''
+              return { title: text.slice(0, 70) || 'Beat' }
+            },
+          },
+        },
+      ],
+      hidden: ({ document }: { document?: { slug?: { current?: string } } }) =>
+        document?.slug?.current !== 'adventure',
+    },
+    {
       title: 'Language',
       name: 'language',
       type: 'string',
