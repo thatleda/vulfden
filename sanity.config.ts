@@ -1,6 +1,6 @@
 import { documentInternationalization } from '@sanity/document-internationalization'
+import { themerTool } from '@sanity/themer/tool'
 import { visionTool } from '@sanity/vision'
-import { theme } from 'https://themer.sanity.build/api/hues?preset=verdant'
 import { defineConfig } from 'sanity'
 import { media } from 'sanity-plugin-media'
 import { structureTool } from 'sanity/structure'
@@ -16,6 +16,7 @@ export default defineConfig({
     structureTool(),
     media(),
     visionTool(),
+    themerTool(),
     documentInternationalization({
       supportedLanguages: [
         { id: 'en', title: 'English' },
@@ -28,6 +29,4 @@ export default defineConfig({
   schema: {
     types: schemaTypes,
   },
-
-  theme,
 })
