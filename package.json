@@ -2,7 +2,7 @@
   "name": "vulfden",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@12.10.0",
+  "packageManager": "pnpm@12.11.2",
   "license": "UNLICENSED",
   "keywords": [
     "sanity"
@@ -19,7 +19,7 @@
     "@sanity/document-internationalization": "catalog:",
     "@sanity/icons": "catalog:",
     "@sanity/structure": "catalog:",
-    "@sanity/themer": "^0.10.0",
+    "@sanity/themer": "catalog:",
     "@sanity/ui": "catalog:",
     "@sanity/vision": "catalog:",
     "netlify-cli": "catalog:",
