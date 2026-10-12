@@ -19,7 +19,7 @@ catalog:
   '@sanity/structure': 2.36.2
   '@sanity/themer': 0.10.0
   '@sanity/ui': 4.2.7
-  '@sanity/vision': 6.16.0
+  '@sanity/vision': 6.17.0
   '@types/react': 19.3.0
   '@types/styled-components': 5.1.36
   eslint: 10.11.0
