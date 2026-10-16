@@ -196,8 +196,8 @@ catalogs:
       specifier: 5.24.9
       version: 5.24.9
     '@sanity/document-internationalization':
-      specifier: 6.2.39
-      version: 6.2.39
+      specifier: 6.2.40
+      version: 6.2.40
     '@sanity/icons':
       specifier: 5.2.3
       version: 5.2.3
@@ -279,7 +279,7 @@ importers:
     dependencies:
       '@sanity/document-internationalization':
         specifier: 'catalog:'
-        version: 6.2.39(@types/react@19.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(sanity-plugin-internationalized-array@5.3.3(2744e1e4544451ea96e2fba3353865dc))(sanity@6.18.0(@babel/core@7.29.7(supports-color@8.1.1))(@babel/runtime@7.29.7)(@noble/hashes@2.2.0)(@rolldown/plugin-babel@0.2.4(@babel/core@7.29.7(supports-color@8.1.1))(@babel/runtime@7.29.7)(rolldown@1.2.13)(vite@8.3.4(@types/node@26.6.2)(esbuild@0.28.1)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0)))(@sanity/workflow-blueprint@0.36.0(@sanity/workflow-engine@0.36.0(@types/react@19.3.0)(supports-color@8.1.1)(typescript@6.0.3))(typescript@6.0.3))(@types/node@26.6.2)(@types/react@19.3.0)(esbuild@0.28.1)(immer@11.1.8)(jiti@2.7.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(rolldown@1.2.13)(styled-components@6.5.3(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(supports-color@8.1.1)(tsx@4.23.12)(typescript@6.0.3))(styled-components@6.5.3(react-dom@19.3.0(react@19.3.0))(react@19.3.0))
+        version: 6.2.40(@types/react@19.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(sanity-plugin-internationalized-array@5.3.3(2744e1e4544451ea96e2fba3353865dc))(sanity@6.18.0(@babel/core@7.29.7(supports-color@8.1.1))(@babel/runtime@7.29.7)(@noble/hashes@2.2.0)(@rolldown/plugin-babel@0.2.4(@babel/core@7.29.7(supports-color@8.1.1))(@babel/runtime@7.29.7)(rolldown@1.2.13)(vite@8.3.4(@types/node@26.6.2)(esbuild@0.28.1)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0)))(@sanity/workflow-blueprint@0.36.0(@sanity/workflow-engine@0.36.0(@types/react@19.3.0)(supports-color@8.1.1)(typescript@6.0.3))(typescript@6.0.3))(@types/node@26.6.2)(@types/react@19.3.0)(esbuild@0.28.1)(immer@11.1.8)(jiti@2.7.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(rolldown@1.2.13)(styled-components@6.5.3(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(supports-color@8.1.1)(tsx@4.23.12)(typescript@6.0.3))(styled-components@6.5.3(react-dom@19.3.0(react@19.3.0))(react@19.3.0))
       '@sanity/icons':
         specifier: 'catalog:'
         version: 5.2.3(react@19.3.0)
@@ -3028,14 +3028,14 @@ packages:
     resolution: {integrity: sha512-cX6M6t8f0HuB9BnZtF/II80/utbM/dj4osDgn+VgfU1kAzYhXF5O/zVVBTGgzSiCa9MKJJ3NCtQJvHQywHT60A==}
     engines: {node: '>=22.12'}
 
-  '@sanity/document-internationalization@6.2.39':
-    resolution: {integrity: sha512-eH2ZtCKRkgC6A/rzLtwQgB8ciKaNLgL8OztYQJ+OdWp9pN56CZ1m9bFJYE5HQrgkjmL1EcRikqXBn1oAa2iUtw==}
+  '@sanity/document-internationalization@6.2.40':
+    resolution: {integrity: sha512-EBQHo5FUltkL4a58Fsr7eAJLTgxGvTDXMfhwQ4hrtyOdOYH4ySd5cwzQ+QCBncyuqDgZa1ohOlwC4P4kI6LHvg==}
     engines: {node: '>=20.19 <22 || >=22.12'}
     peerDependencies:
       react: ^19.2
       react-dom: ^19.2
       sanity: ^5 || ^6.0.0-0
-      sanity-plugin-internationalized-array: ^5.3.2
+      sanity-plugin-internationalized-array: ^5.3.3
 
   '@sanity/eventsource@4.1.1':
     resolution: {integrity: sha512-4RpexVqD+hbIXDgFLgWq/vSJWHNEBbc9eGa96ear/3ADFhMQx+QG4Q7r3QmQkB2t7LfUrrJfMQn9sMwaBTlurg==}
@@ -8875,11 +8875,6 @@ packages:
       '@types/react':
         optional: true
 
-  use-sync-external-store@1.6.0:
-    resolution: {integrity: sha512-Pp6GSwGP/NrPIrxVFAIkOQeyw8lFenOHijQWkUTrDvrF4ALqylP2C/KCkeS9dpUM3KvYRQhna5vt7IL95+ZQ9w==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-
   use-sync-external-store@1.7.0:
     resolution: {integrity: sha512-6L+EeigHMQhdaIPNIFUKwfWJSwWFQ8gJbJ2DLOs5sDIegTwR9fRxvnM3uciHKjIZhFz+KAv2emhWMRvDmMcY8A==}
     peerDependencies:
@@ -12510,12 +12505,12 @@ snapshots:
     dependencies:
       '@sanity/diff-match-patch': 3.2.1
 
-  '@sanity/document-internationalization@6.2.39(@types/react@19.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(sanity-plugin-internationalized-array@5.3.3(2744e1e4544451ea96e2fba3353865dc))(sanity@6.18.0(@babel/core@7.29.7(supports-color@8.1.1))(@babel/runtime@7.29.7)(@noble/hashes@2.2.0)(@rolldown/plugin-babel@0.2.4(@babel/core@7.29.7(supports-color@8.1.1))(@babel/runtime@7.29.7)(rolldown@1.2.13)(vite@8.3.4(@types/node@26.6.2)(esbuild@0.28.1)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0)))(@sanity/workflow-blueprint@0.36.0(@sanity/workflow-engine@0.36.0(@types/react@19.3.0)(supports-color@8.1.1)(typescript@6.0.3))(typescript@6.0.3))(@types/node@26.6.2)(@types/react@19.3.0)(esbuild@0.28.1)(immer@11.1.8)(jiti@2.7.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(rolldown@1.2.13)(styled-components@6.5.3(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(supports-color@8.1.1)(tsx@4.23.12)(typescript@6.0.3))(styled-components@6.5.3(react-dom@19.3.0(react@19.3.0))(react@19.3.0))':
+  '@sanity/document-internationalization@6.2.40(@types/react@19.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(sanity-plugin-internationalized-array@5.3.3(2744e1e4544451ea96e2fba3353865dc))(sanity@6.18.0(@babel/core@7.29.7(supports-color@8.1.1))(@babel/runtime@7.29.7)(@noble/hashes@2.2.0)(@rolldown/plugin-babel@0.2.4(@babel/core@7.29.7(supports-color@8.1.1))(@babel/runtime@7.29.7)(rolldown@1.2.13)(vite@8.3.4(@types/node@26.6.2)(esbuild@0.28.1)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0)))(@sanity/workflow-blueprint@0.36.0(@sanity/workflow-engine@0.36.0(@types/react@19.3.0)(supports-color@8.1.1)(typescript@6.0.3))(typescript@6.0.3))(@types/node@26.6.2)(@types/react@19.3.0)(esbuild@0.28.1)(immer@11.1.8)(jiti@2.7.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(rolldown@1.2.13)(styled-components@6.5.3(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(supports-color@8.1.1)(tsx@4.23.12)(typescript@6.0.3))(styled-components@6.5.3(react-dom@19.3.0(react@19.3.0))(react@19.3.0))':
     dependencies:
       '@sanity/icons': 5.2.3(react@19.3.0)
-      '@sanity/mutator': 6.17.0(@types/react@19.3.0)
-      '@sanity/ui': 4.2.7(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(styled-components@6.5.3(react-dom@19.3.0(react@19.3.0))(react@19.3.0))
-      '@sanity/util': 6.17.0(@types/react@19.3.0)
+      '@sanity/mutator': 6.18.0(@types/react@19.3.0)
+      '@sanity/ui': 4.4.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(styled-components@6.5.3(react-dom@19.3.0(react@19.3.0))(react@19.3.0))
+      '@sanity/util': 6.18.0(@types/react@19.3.0)
       '@sanity/uuid': 3.0.3
       react: 19.3.0
       react-dom: 19.3.0(react@19.3.0)
@@ -19603,10 +19598,6 @@ snapshots:
       tslib: 2.8.1
     optionalDependencies:
       '@types/react': 19.3.0
-
-  use-sync-external-store@1.6.0(react@19.3.0):
-    dependencies:
-      react: 19.3.0
 
   use-sync-external-store@1.7.0(react@19.3.0):
     dependencies:
