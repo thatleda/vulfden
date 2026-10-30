@@ -34,7 +34,9 @@ export default {
               name: 'items',
               type: 'array',
               title: 'Skills',
-              of: [{ type: 'string' }],
+              of: [
+                { type: 'string' },
+              ],
             },
           ],
           preview: {
@@ -91,7 +93,9 @@ export default {
               name: 'bullets',
               type: 'array',
               title: 'Bullet Points',
-              of: [{ type: 'text', rows: 2 }],
+              of: [
+                { type: 'text', rows: 2 },
+              ],
             },
           ],
           preview: {
@@ -130,7 +134,9 @@ export default {
       name: 'additionalSkills',
       type: 'array',
       title: 'Additional',
-      of: [{ type: 'string' }],
+      of: [
+        { type: 'string' },
+      ],
     },
     {
       name: 'Language',
@@ -148,7 +154,9 @@ export default {
     select: { language: 'language' },
     prepare({ language }: { language?: string }) {
       return {
-        title: language === 'de' ? 'Lebenslauf (DE)' : 'Resume (EN)',
+        title: language === 'de'
+          ? 'Lebenslauf (DE)'
+          : 'Resume (EN)',
         subtitle: language ?? 'en',
       }
     },
