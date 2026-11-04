@@ -34,11 +34,9 @@ catalog:
   typescript: 6.0.3
 
 minimumReleaseAgeExclude:
-  - smol-toml@1.6.1
   - esbuild@0.28.1
   - http-proxy-middleware@3.0.7
   - json-2-csv@5.5.11
-  - adm-zip@0.6.0
 
 overrides:
   '@fastify/static': '>=10.1.2'
