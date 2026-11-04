@@ -3761,8 +3761,8 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  adm-zip@0.6.0:
-    resolution: {integrity: sha512-XleryMhbuksdKtofnWZ9Sk+4CUTbms4Mb/EU32SZwToAyZ5RgVos/ki8n+yr0LWHOGKuakbXTuuYNHLQjhddgg==}
+  adm-zip@0.6.1:
+    resolution: {integrity: sha512-Xwrja8nx9e5o2N1my4DsKCeKpdrnACyr1wtbPxBDgGzKzKyE9kRtBFA8mWldI+RVlD7CBZNWY/wQ2+ydwOR6kQ==}
     engines: {node: '>=14.0'}
 
   agent-base@7.1.4:
@@ -11174,7 +11174,7 @@ snapshots:
       '@module-federation/managers': 2.9.2
       '@module-federation/sdk': 2.9.2
       '@module-federation/third-party-dts-extractor': 2.9.2
-      adm-zip: 0.6.0
+      adm-zip: 0.6.1
       isomorphic-ws: 5.0.0(ws@8.21.3)
       typescript: 6.0.3
       undici: 7.29.0
@@ -12651,7 +12651,7 @@ snapshots:
       '@sanity/cli-build': 6.5.0(0ea668988e12f7fa8cb2d6ac1ba4cb18)
       '@sanity/cli-core': 3.11.0(@noble/hashes@2.2.0)(@types/node@26.6.2)(esbuild@0.28.1)(tsx@4.23.12)(yaml@2.9.0)
       '@sanity/client': 8.9.0
-      adm-zip: 0.6.0
+      adm-zip: 0.6.1
       array-treeify: 0.2.0
       cardinal: 2.1.1
       empathic: 2.0.1
@@ -13650,7 +13650,7 @@ snapshots:
 
   acorn@8.16.0: {}
 
-  adm-zip@0.6.0: {}
+  adm-zip@0.6.1: {}
 
   agent-base@7.1.4: {}
 
