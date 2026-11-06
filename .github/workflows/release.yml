@@ -16,7 +16,7 @@ jobs:
       SANITY_STUDIO_DATASET: production
     steps:
       - uses: actions/checkout@v7
-      - uses: pnpm/action-setup@v6.1.0
+      - uses: pnpm/action-setup@v6.1.1
         with:
           cache: true
           cache_dependency_path: pnpm-lock.yaml
